@@ -43,3 +43,5 @@ arget/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+.vscode
