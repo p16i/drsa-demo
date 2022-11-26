@@ -1,0 +1,1377 @@
+id,category,code,number,name,frequency,coverage
+0,scene,1,59,street-s,2241,2241.0
+1,scene,2,83,bedroom-s,1528,1528.0
+2,scene,3,126,living_room-s,767,767.0
+3,scene,4,130,bathroom-s,738,738.0
+4,scene,5,134,kitchen-s,718,718.0
+5,scene,6,186,dining_room-s,454,454.0
+6,scene,7,223,skyscraper-s,351,351.0
+7,scene,8,233,highway-s,325,325.0
+8,scene,9,269,building_facade-s,251,251.0
+9,scene,10,301,conference_room-s,184,184.0
+10,scene,11,302,hotel_room-s,176,176.0
+11,scene,12,333,mountain_snowy-s,143,143.0
+12,scene,13,380,office-s,123,123.0
+13,scene,14,383,corridor-s,122,122.0
+14,scene,15,396,airport_terminal-s,118,118.0
+15,scene,16,407,game_room-s,109,109.0
+16,scene,17,410,waiting_room-s,106,106.0
+17,scene,18,414,home_office-s,105,105.0
+18,scene,19,413,poolroom-home-s,105,105.0
+19,scene,20,424,art_studio-s,98,98.0
+20,scene,21,428,attic-s,97,97.0
+21,scene,22,429,forest-broadleaf-s,97,97.0
+22,scene,23,430,park-s,94,94.0
+23,scene,24,431,mountain-s,93,93.0
+24,scene,25,440,coast-s,88,88.0
+25,scene,26,444,alley-s,87,87.0
+26,scene,27,453,parlor-s,80,80.0
+27,scene,28,456,closet-s,79,79.0
+28,scene,29,457,beach-s,79,79.0
+29,scene,30,459,childs_room-s,77,77.0
+30,scene,31,460,art_gallery-s,76,76.0
+31,scene,32,467,apartment_building-outdoor-s,74,74.0
+32,scene,33,478,castle-s,69,69.0
+33,scene,34,477,staircase-s,69,69.0
+34,scene,35,482,pasture-s,68,68.0
+35,scene,36,484,dorm_room-s,67,67.0
+36,scene,37,489,nursery-s,66,66.0
+37,scene,38,492,garage-indoor-s,65,65.0
+38,scene,39,491,lobby-s,65,65.0
+39,scene,40,493,reception-s,63,63.0
+40,scene,41,499,bar-s,61,61.0
+41,scene,42,504,forest-needleleaf-s,59,59.0
+42,scene,43,511,warehouse-indoor-s,57,57.0
+43,scene,44,509,bakery-shop-s,57,57.0
+44,scene,45,510,roundabout-s,57,57.0
+45,scene,46,515,house-s,55,55.0
+46,scene,47,529,casino-indoor-s,52,52.0
+47,scene,48,534,classroom-s,51,51.0
+48,scene,49,532,field-cultivated-s,51,51.0
+49,scene,50,533,bridge-s,51,51.0
+50,scene,51,535,river-s,50,50.0
+51,scene,52,541,youth_hostel-s,49,49.0
+52,scene,53,543,field-wild-s,48,48.0
+53,scene,54,547,lighthouse-s,47,47.0
+54,scene,55,553,creek-s,46,46.0
+55,scene,56,554,museum-indoor-s,46,46.0
+56,scene,57,556,window_seat-s,46,46.0
+57,scene,58,555,shoe_shop-s,46,46.0
+58,scene,59,558,amusement_park-s,45,45.0
+59,scene,60,559,dinette-vehicle-s,45,45.0
+60,scene,61,562,lake-natural-s,44,44.0
+61,scene,62,563,dinette-home-s,44,44.0
+62,scene,63,565,cockpit-s,43,43.0
+63,scene,64,571,jacuzzi-indoor-s,42,42.0
+64,scene,65,574,playroom-s,41,41.0
+65,scene,66,580,valley-s,40,40.0
+66,scene,67,579,parking_lot-s,40,40.0
+67,scene,68,585,tower-s,39,39.0
+68,scene,69,583,auditorium-s,39,39.0
+69,scene,70,584,beauty_salon-s,39,39.0
+70,scene,71,589,wet_bar-s,38,38.0
+71,scene,72,590,artists_loft-s,38,38.0
+72,scene,73,592,balcony-interior-s,37,37.0
+73,scene,74,594,arrival_gate-outdoor-s,36,36.0
+74,scene,75,598,plaza-s,35,35.0
+75,scene,76,597,playground-s,35,35.0
+76,scene,77,602,hill-s,34,34.0
+77,scene,78,608,clothing_store-s,33,33.0
+78,scene,79,611,pantry-s,33,33.0
+79,scene,80,610,bow_window-indoor-s,33,33.0
+80,scene,81,609,utility_room-s,33,33.0
+81,scene,82,616,galley-s,32,32.0
+82,scene,83,619,basement-s,32,32.0
+83,scene,84,617,bookstore-s,32,32.0
+84,scene,85,618,abbey-s,32,32.0
+85,scene,86,625,golf_course-s,31,31.0
+86,scene,87,624,supermarket-s,31,31.0
+87,scene,88,630,hallway-s,30,30.0
+88,scene,89,638,market-outdoor-s,29,29.0
+89,scene,90,634,laundromat-s,29,29.0
+90,scene,91,636,greenhouse-indoor-s,29,29.0
+91,scene,92,639,subway_interior-s,29,29.0
+92,scene,93,637,gazebo-exterior-s,29,29.0
+93,scene,94,635,ballroom-s,29,29.0
+94,scene,95,647,alcove-s,28,28.0
+95,scene,96,646,doorway-indoor-s,28,28.0
+96,scene,97,645,bus_interior-s,28,28.0
+97,scene,98,650,access_road-s,27,27.0
+98,scene,99,652,archive-s,27,27.0
+99,scene,100,651,landing_deck-s,27,27.0
+100,scene,101,662,waterfall-block-s,26,26.0
+101,scene,102,661,gymnasium-indoor-s,26,26.0
+102,scene,103,672,office_building-s,25,25.0
+103,scene,104,677,ocean-s,25,25.0
+104,scene,105,671,cathedral-indoor-s,25,25.0
+105,scene,106,674,badlands-s,25,25.0
+106,scene,107,675,forest_path-s,25,25.0
+107,scene,108,673,baggage_claim-s,25,25.0
+108,scene,109,676,home_theater-s,25,25.0
+109,scene,110,696,toyshop-s,24,24.0
+110,scene,111,689,harbor-s,24,24.0
+111,scene,112,694,library-indoor-s,24,24.0
+112,scene,113,697,dentists_office-s,24,24.0
+113,scene,114,692,bowling_alley-s,24,24.0
+114,scene,115,690,amusement_arcade-s,24,24.0
+115,scene,116,695,restaurant-s,24,24.0
+116,scene,117,686,fastfood_restaurant-s,24,24.0
+117,scene,118,691,poolroom-establishment-s,24,24.0
+118,scene,119,688,church-indoor-s,24,24.0
+119,scene,120,693,auto_showroom-s,24,24.0
+120,scene,121,687,gas_station-s,24,24.0
+121,scene,122,711,theater-indoor_procenium-s,23,23.0
+122,scene,123,713,construction_site-s,23,23.0
+123,scene,124,708,fairway-s,23,23.0
+124,scene,125,712,parking_garage-indoor-s,23,23.0
+125,scene,126,710,yard-s,23,23.0
+126,scene,127,709,courthouse-s,23,23.0
+127,scene,128,706,bow_window-outdoor-s,23,23.0
+128,scene,129,707,driveway-s,23,23.0
+129,scene,130,728,water_tower-s,22,22.0
+130,scene,131,725,cubicle-office-s,22,22.0
+131,scene,132,726,computer_room-s,22,22.0
+132,scene,133,731,music_studio-s,22,22.0
+133,scene,134,721,amphitheater-s,22,22.0
+134,scene,135,730,airplane_cabin-s,22,22.0
+135,scene,136,729,campus-s,22,22.0
+136,scene,137,727,kindergarden_classroom-s,22,22.0
+137,scene,138,724,control_tower-outdoor-s,22,22.0
+138,scene,139,722,ball_pit-s,22,22.0
+139,scene,140,723,desert-sand-s,22,22.0
+140,scene,141,742,cloister-indoor-s,21,21.0
+141,scene,142,745,weighbridge-s,21,21.0
+142,scene,143,741,swimming_pool-outdoor-s,21,21.0
+143,scene,144,743,wine_cellar-barrel_storage-s,21,21.0
+144,scene,145,740,delicatessen-s,21,21.0
+145,scene,146,746,shopping_mall-indoor-s,21,21.0
+146,scene,147,744,restaurant_patio-s,21,21.0
+147,scene,148,747,berth-s,21,21.0
+148,scene,149,754,swimming_pool-indoor-s,20,20.0
+149,scene,150,755,waterfall-fan-s,20,20.0
+150,scene,151,759,videostore-s,20,20.0
+151,scene,152,757,cemetery-s,20,20.0
+152,scene,153,760,reading_room-s,20,20.0
+153,scene,154,753,geodesic_dome-outdoor-s,20,20.0
+154,scene,155,758,windmill-s,20,20.0
+155,scene,156,756,ice_skating_rink-indoor-s,20,20.0
+156,scene,157,772,atrium-public-s,19,19.0
+157,scene,158,771,courtroom-s,19,19.0
+158,scene,159,768,dining_car-s,19,19.0
+159,scene,160,767,day_care_center-s,19,19.0
+160,scene,161,765,movie_theater-indoor-s,19,19.0
+161,scene,162,770,mansion-s,19,19.0
+162,scene,163,769,jail_cell-s,19,19.0
+163,scene,164,766,sauna-s,19,19.0
+164,scene,165,790,mosque-outdoor-s,18,18.0
+165,scene,166,789,lecture_room-s,18,18.0
+166,scene,167,783,campsite-s,18,18.0
+167,scene,168,782,doorway-outdoor-s,18,18.0
+168,scene,169,788,church-outdoor-s,18,18.0
+169,scene,170,787,inn-indoor-s,18,18.0
+170,scene,171,786,hospital_room-s,18,18.0
+171,scene,172,785,florist_shop-indoor-s,18,18.0
+172,scene,173,791,aqueduct-s,18,18.0
+173,scene,174,784,shower-s,18,18.0
+174,scene,175,802,forest_road-s,17,17.0
+175,scene,176,803,cabin-outdoor-s,17,17.0
+176,scene,177,804,operating_room-s,17,17.0
+177,scene,178,805,inn-outdoor-s,17,17.0
+178,scene,179,823,crosswalk-s,16,16.0
+179,scene,180,814,sandbox-s,16,16.0
+180,scene,181,818,hayfield-s,16,16.0
+181,scene,182,817,snowfield-s,16,16.0
+182,scene,183,816,planetarium-outdoor-s,16,16.0
+183,scene,184,826,slum-s,16,16.0
+184,scene,185,825,islet-s,16,16.0
+185,scene,186,815,shopfront-s,16,16.0
+186,scene,187,824,television_studio-s,16,16.0
+187,scene,188,822,locker_room-s,16,16.0
+188,scene,189,821,barn-s,16,16.0
+189,scene,190,820,botanical_garden-s,16,16.0
+190,scene,191,819,carrousel-s,16,16.0
+191,scene,192,840,subway_station-corridor-s,15,15.0
+192,scene,193,849,rope_bridge-s,15,15.0
+193,scene,194,837,hunting_lodge-outdoor-s,15,15.0
+194,scene,195,843,kasbah-s,15,15.0
+195,scene,196,838,marsh-s,15,15.0
+196,scene,197,844,auto_factory-s,15,15.0
+197,scene,198,846,balcony-exterior-s,15,15.0
+198,scene,199,848,chicken_coop-outdoor-s,15,15.0
+199,scene,200,834,ski_resort-s,15,15.0
+200,scene,201,833,diner-outdoor-s,15,15.0
+201,scene,202,842,corn_field-s,15,15.0
+202,scene,203,841,kitchenette-s,15,15.0
+203,scene,204,836,village-s,15,15.0
+204,scene,205,835,monastery-outdoor-s,15,15.0
+205,scene,206,847,courtyard-s,15,15.0
+206,scene,207,845,martial_arts_gym-s,15,15.0
+207,scene,208,839,fountain-s,15,15.0
+208,scene,209,859,outhouse-outdoor-s,14,14.0
+209,scene,210,874,donjon-s,14,14.0
+210,scene,211,873,runway-s,14,14.0
+211,scene,212,862,viaduct-s,14,14.0
+212,scene,213,868,baptistry-outdoor-s,14,14.0
+213,scene,214,858,kiosk-indoor-s,14,14.0
+214,scene,215,867,farm-s,14,14.0
+215,scene,216,877,escalator-indoor-s,14,14.0
+216,scene,217,875,ruin-s,14,14.0
+217,scene,218,871,moor-s,14,14.0
+218,scene,219,861,art_school-s,14,14.0
+219,scene,220,872,hospital-s,14,14.0
+220,scene,221,864,pulpit-s,14,14.0
+221,scene,222,870,arch-s,14,14.0
+222,scene,223,869,wheat_field-s,14,14.0
+223,scene,224,865,garage-outdoor-s,14,14.0
+224,scene,225,878,airport-s,14,14.0
+225,scene,226,876,canyon-s,14,14.0
+226,scene,227,866,corral-s,14,14.0
+227,scene,228,863,bleachers-outdoor-s,14,14.0
+228,scene,229,860,stage-indoor-s,14,14.0
+229,scene,230,896,medina-s,13,13.0
+230,scene,231,911,kennel-indoor-s,13,13.0
+231,scene,232,895,bank-outdoor-s,13,13.0
+232,scene,233,904,car_interior-backseat-s,13,13.0
+233,scene,234,917,desert-vegetation-s,13,13.0
+234,scene,235,914,hot_spring-s,13,13.0
+235,scene,236,915,sandbar-s,13,13.0
+236,scene,237,901,dolmen-s,13,13.0
+237,scene,238,913,vegetable_garden-s,13,13.0
+238,scene,239,908,elevator-interior-s,13,13.0
+239,scene,240,907,embassy-s,13,13.0
+240,scene,241,919,covered_bridge-exterior-s,13,13.0
+241,scene,242,910,casino-outdoor-s,13,13.0
+242,scene,243,916,observatory-outdoor-s,13,13.0
+243,scene,244,902,dacha-s,13,13.0
+244,scene,245,912,cathedral-outdoor-s,13,13.0
+245,scene,246,900,fire_escape-s,13,13.0
+246,scene,247,897,candy_store-s,13,13.0
+247,scene,248,894,town_house-s,13,13.0
+248,scene,249,906,bus_depot-outdoor-s,13,13.0
+249,scene,250,905,jewelry_shop-s,13,13.0
+250,scene,251,898,palace-s,13,13.0
+251,scene,252,899,mountain_path-s,13,13.0
+252,scene,253,909,cavern-indoor-s,13,13.0
+253,scene,254,903,jail-indoor-s,13,13.0
+254,scene,255,918,conference_center-s,13,13.0
+255,scene,256,968,moat-water-s,12,12.0
+256,scene,257,941,fence-s,12,12.0
+257,scene,258,974,movie_theater-outdoor-s,12,12.0
+258,scene,259,958,bazaar-indoor-s,12,12.0
+259,scene,260,952,wrestling_ring-indoor-s,12,12.0
+260,scene,261,977,badminton_court-outdoor-s,12,12.0
+261,scene,262,966,vineyard-s,12,12.0
+262,scene,263,976,temple-east_asia-s,12,12.0
+263,scene,264,972,podium-indoor-s,12,12.0
+264,scene,265,962,kennel-outdoor-s,12,12.0
+265,scene,266,937,booth-indoor-s,12,12.0
+266,scene,267,961,watchtower-s,12,12.0
+267,scene,268,950,hangar-indoor-s,12,12.0
+268,scene,269,930,irrigation_ditch-s,12,12.0
+269,scene,270,956,elevator_lobby-s,12,12.0
+270,scene,271,931,dam-s,12,12.0
+271,scene,272,955,crevasse-s,12,12.0
+272,scene,273,970,convenience_store-outdoor-s,12,12.0
+273,scene,274,935,ghost_town-s,12,12.0
+274,scene,275,964,greenhouse-outdoor-s,12,12.0
+275,scene,276,963,boathouse-s,12,12.0
+276,scene,277,949,junk_pile-s,12,12.0
+277,scene,278,973,orchard-s,12,12.0
+278,scene,279,943,excavation-s,12,12.0
+279,scene,280,933,ranch-s,12,12.0
+280,scene,281,967,oast_house-s,12,12.0
+281,scene,282,969,kiosk-outdoor-s,12,12.0
+282,scene,283,936,canal-urban-s,12,12.0
+283,scene,284,953,ski_slope-s,12,12.0
+284,scene,285,947,sacristy-s,12,12.0
+285,scene,286,975,mountain_road-s,12,12.0
+286,scene,287,946,motel-s,12,12.0
+287,scene,288,945,student_residence-s,12,12.0
+288,scene,289,971,nuclear_power_plant-outdoor-s,12,12.0
+289,scene,290,940,stadium-baseball-s,12,12.0
+290,scene,291,939,boxing_ring-s,12,12.0
+291,scene,292,951,flood-s,12,12.0
+292,scene,293,942,airport-entrance-s,12,12.0
+293,scene,294,954,fitting_room-exterior-s,12,12.0
+294,scene,295,960,wine_cellar-bottle_storage-s,12,12.0
+295,scene,296,948,lift_bridge-s,12,12.0
+296,scene,297,965,fitting_room-interior-s,12,12.0
+297,scene,298,938,hotel-outdoor-s,12,12.0
+298,scene,299,934,carport-outdoor-s,12,12.0
+299,scene,300,944,ice_cream_parlor-s,12,12.0
+300,scene,301,959,subway_station-platform-s,12,12.0
+301,scene,302,932,ranch_house-s,12,12.0
+302,scene,303,957,estuary-s,12,12.0
+303,scene,304,1056,baptistry-indoor-s,11,11.0
+304,scene,305,1013,water_mill-s,11,11.0
+305,scene,306,992,coffee_shop-s,11,11.0
+306,scene,307,1007,mosque-indoor-s,11,11.0
+307,scene,308,1040,canal-natural-s,11,11.0
+308,scene,309,1043,downtown-s,11,11.0
+309,scene,310,1003,waterfall-cascade-s,11,11.0
+310,scene,311,1055,military_hut-s,11,11.0
+311,scene,312,1025,hacienda-s,11,11.0
+312,scene,313,1000,guardhouse-s,11,11.0
+313,scene,314,1017,apse-indoor-s,11,11.0
+314,scene,315,1012,pagoda-s,11,11.0
+315,scene,316,1011,shed-s,11,11.0
+316,scene,317,997,chalet-s,11,11.0
+317,scene,318,1009,topiary_garden-s,11,11.0
+318,scene,319,1034,oasis-s,11,11.0
+319,scene,320,1058,library-outdoor-s,11,11.0
+320,scene,321,1004,general_store-outdoor-s,11,11.0
+321,scene,322,1033,bank-indoor-s,11,11.0
+322,scene,323,1021,manufactured_home-s,11,11.0
+323,scene,324,1028,dugout-s,11,11.0
+324,scene,325,1052,bog-s,11,11.0
+325,scene,326,1027,workshop-s,11,11.0
+326,scene,327,1015,cloister-outdoor-s,11,11.0
+327,scene,328,1022,firing_range-outdoor-s,11,11.0
+328,scene,329,1006,herb_garden-s,11,11.0
+329,scene,330,1051,cargo_container_interior-s,11,11.0
+330,scene,331,1037,volleyball_court-outdoor-s,11,11.0
+331,scene,332,1019,synagogue-outdoor-s,11,11.0
+332,scene,333,1031,spa-massage_room-s,11,11.0
+333,scene,334,1048,elevator_shaft-s,11,11.0
+334,scene,335,1010,industrial_area-s,11,11.0
+335,scene,336,1039,train_station-outdoor-s,11,11.0
+336,scene,337,998,baseball_field-s,11,11.0
+337,scene,338,1008,lagoon-s,11,11.0
+338,scene,339,1023,barbershop-s,11,11.0
+339,scene,340,1032,savanna-s,11,11.0
+340,scene,341,994,lawn-s,11,11.0
+341,scene,342,993,labyrinth-indoor-s,11,11.0
+342,scene,343,1057,bullring-s,11,11.0
+343,scene,344,1046,market-indoor-s,11,11.0
+344,scene,345,1045,catwalk-s,11,11.0
+345,scene,346,1024,cottage_garden-s,11,11.0
+346,scene,347,1041,parking_garage-outdoor-s,11,11.0
+347,scene,348,1030,elevator-freight_elevator-s,11,11.0
+348,scene,349,1018,ice_skating_rink-outdoor-s,11,11.0
+349,scene,350,1029,hat_shop-s,11,11.0
+350,scene,351,1035,witness_stand-s,11,11.0
+351,scene,352,1016,butchers_shop-s,11,11.0
+352,scene,353,1054,lido_deck-outdoor-s,11,11.0
+353,scene,354,1002,flight_of_stairs-urban-s,11,11.0
+354,scene,355,1050,formal_garden-s,11,11.0
+355,scene,356,996,escalator-outdoor-s,11,11.0
+356,scene,357,1020,assembly_line-s,11,11.0
+357,scene,358,1049,moon_bounce-s,11,11.0
+358,scene,359,1001,hut-s,11,11.0
+359,scene,360,1038,anechoic_chamber-s,11,11.0
+360,scene,361,995,beach_house-s,11,11.0
+361,scene,362,1044,driving_range-outdoor-s,11,11.0
+362,scene,363,1042,food_court-s,11,11.0
+363,scene,364,1005,mine-s,11,11.0
+364,scene,365,1036,road_cut-s,11,11.0
+365,scene,366,1053,airport_ticket_counter-s,11,11.0
+366,scene,367,1026,industrial_park-s,11,11.0
+367,scene,368,999,sun_deck-s,11,11.0
+368,scene,369,1047,carport-freestanding-s,11,11.0
+369,scene,370,1014,elevator-door-s,11,11.0
+370,scene,371,1097,dining_hall-s,10,10.0
+371,scene,372,1119,manhole-s,10,10.0
+372,scene,373,1092,batters_box-s,10,10.0
+373,scene,374,1109,checkout_counter-s,10,10.0
+374,scene,375,1103,natural_history_museum-s,10,10.0
+375,scene,376,1159,bullpen-s,10,10.0
+376,scene,377,1161,junkyard-s,10,10.0
+377,scene,378,1174,japanese_garden-s,10,10.0
+378,scene,379,1101,granary-s,10,10.0
+379,scene,380,1134,museum-outdoor-s,10,10.0
+380,scene,381,1095,bazaar-outdoor-s,10,10.0
+381,scene,382,1112,zen_garden-s,10,10.0
+382,scene,383,1136,bedchamber-s,10,10.0
+383,scene,384,1118,air_base-s,10,10.0
+384,scene,385,1098,banquet_hall-s,10,10.0
+385,scene,386,1179,cubicle-library-s,10,10.0
+386,scene,387,1106,cabana-s,10,10.0
+387,scene,388,1123,limousine_interior-s,10,10.0
+388,scene,389,1086,chapel-s,10,10.0
+389,scene,390,1096,hoodoo-s,10,10.0
+390,scene,391,1152,building_complex-s,10,10.0
+391,scene,392,1082,control_tower-indoor-s,10,10.0
+392,scene,393,1167,canteen-s,10,10.0
+393,scene,394,1151,cafeteria-s,10,10.0
+394,scene,395,1163,cheese_factory-s,10,10.0
+395,scene,396,1121,badminton_court-indoor-s,10,10.0
+396,scene,397,1116,hot_tub-indoor-s,10,10.0
+397,scene,398,1115,watering_hole-s,10,10.0
+398,scene,399,1105,cottage-s,10,10.0
+399,scene,400,1100,gulch-s,10,10.0
+400,scene,401,1132,car_dealership-s,10,10.0
+401,scene,402,1099,basketball_court-outdoor-s,10,10.0
+402,scene,403,1085,choir_loft-exterior-s,10,10.0
+403,scene,404,1160,archaelogical_excavation-s,10,10.0
+404,scene,405,1177,jail-outdoor-s,10,10.0
+405,scene,406,1173,earth_fissure-s,10,10.0
+406,scene,407,1172,nunnery-s,10,10.0
+407,scene,408,1130,convenience_store-indoor-s,10,10.0
+408,scene,409,1171,bleachers-indoor-s,10,10.0
+409,scene,410,1129,clean_room-s,10,10.0
+410,scene,411,1157,funeral_chapel-s,10,10.0
+411,scene,412,1124,backstairs-s,10,10.0
+412,scene,413,1141,hedge_maze-s,10,10.0
+413,scene,414,1114,gift_shop-s,10,10.0
+414,scene,415,1143,aquatic_theater-s,10,10.0
+415,scene,416,1110,labyrinth-outdoor-s,10,10.0
+416,scene,417,1142,flight_of_stairs-natural-s,10,10.0
+417,scene,418,1113,fishpond-s,10,10.0
+418,scene,419,1169,drainage_ditch-s,10,10.0
+419,scene,420,1135,fire_station-s,10,10.0
+420,scene,421,1108,signal_box-s,10,10.0
+421,scene,422,1164,lake-artificial-s,10,10.0
+422,scene,423,1094,liquor_store-outdoor-s,10,10.0
+423,scene,424,1147,newsstand-outdoor-s,10,10.0
+424,scene,425,1175,fort-s,10,10.0
+425,scene,426,1131,barnyard-s,10,10.0
+426,scene,427,1127,brewery-outdoor-s,10,10.0
+427,scene,428,1144,mission-s,10,10.0
+428,scene,429,1166,hotel_breakfast_area-s,10,10.0
+429,scene,430,1093,quadrangle-s,10,10.0
+430,scene,431,1117,call_center-s,10,10.0
+431,scene,432,1150,hangar-outdoor-s,10,10.0
+432,scene,433,1087,jacuzzi-outdoor-s,10,10.0
+433,scene,434,1111,bus_shelter-s,10,10.0
+434,scene,435,1128,loading_dock-s,10,10.0
+435,scene,436,1170,auto_mechanics-indoor-s,10,10.0
+436,scene,437,1102,pilothouse-indoor-s,10,10.0
+437,scene,438,1158,beer_garden-s,10,10.0
+438,scene,439,1168,catacomb-s,10,10.0
+439,scene,440,1148,football_field-s,10,10.0
+440,scene,441,1154,bayou-s,10,10.0
+441,scene,442,1153,covered_bridge-interior-s,10,10.0
+442,scene,443,1120,joss_house-s,10,10.0
+443,scene,444,1137,bistro-indoor-s,10,10.0
+444,scene,445,1126,cardroom-s,10,10.0
+445,scene,446,1088,hot_tub-outdoor-s,10,10.0
+446,scene,447,1107,landing-s,10,10.0
+447,scene,448,1104,bakery-kitchen-s,10,10.0
+448,scene,449,1090,heliport-s,10,10.0
+449,scene,450,1091,dirt_track-s,10,10.0
+450,scene,451,1178,pub-outdoor-s,10,10.0
+451,scene,452,1176,circus_tent-outdoor-s,10,10.0
+452,scene,453,1162,bank_vault-s,10,10.0
+453,scene,454,1089,imaret-s,10,10.0
+454,scene,455,1146,basketball_court-indoor-s,10,10.0
+455,scene,456,1084,liquor_store-indoor-s,10,10.0
+456,scene,457,1145,lean-to-s,10,10.0
+457,scene,458,1083,mausoleum-s,10,10.0
+458,scene,459,1140,rubble-s,10,10.0
+459,scene,460,1156,hunting_lodge-indoor-s,10,10.0
+460,scene,461,1138,butte-s,10,10.0
+461,scene,462,1155,throne_room-s,10,10.0
+462,scene,463,1139,field_road-s,10,10.0
+463,scene,464,1133,tearoom-s,10,10.0
+464,scene,465,1165,florist_shop-outdoor-s,10,10.0
+465,scene,466,1125,moat-dry-s,10,10.0
+466,scene,467,1149,freeway-s,10,10.0
+467,scene,468,1122,fjord-s,10,10.0
+468,object,1,12,wall,15553,3945.14338084
+469,object,2,13,sky,12271,2944.38023646
+470,object,3,14,floor,12133,1653.08197034
+471,object,4,16,tree,10551,1706.83981414
+472,object,5,18,building,9722,2845.74889456
+473,object,6,19,person,9520,1169.76052271
+474,object,7,25,ceiling,7812,974.2406251580001
+475,object,8,27,table,6246,386.748259978
+476,object,9,15,windowpane,5904,494.282916549
+477,object,10,31,road,5500,1042.16066597
+478,object,11,33,grass,5390,1039.16734516
+479,object,12,36,chair,4935,373.54698740099997
+480,object,13,38,car,4743,431.686181156
+481,object,14,35,plant,4546,261.858410814
+482,object,15,40,painting,4285,178.18676191900002
+483,object,16,23,door,3778,246.059302363
+484,object,17,43,sidewalk,3754,324.949218382
+485,object,18,46,light,3687,28.1446799863
+486,object,19,45,cabinet,3677,429.004371499
+487,object,20,47,signboard,3540,53.115656763800004
+488,object,21,50,lamp,3386,48.0362739896
+489,object,22,52,ground,2987,626.7216312730001
+490,object,23,54,curtain,2747,251.047719585
+491,object,24,55,pole,2651,35.108332280300004
+492,object,25,56,mountain,2579,440.339062615
+493,object,26,57,fence,2544,178.99495830700002
+494,object,27,60,streetlight,2227,12.8302321777
+495,object,28,61,bed,2133,471.717648214
+496,object,29,63,sofa,2128,328.416826908
+497,object,30,65,box,2034,72.649072265
+498,object,31,68,earth,1997,340.336238003
+499,object,32,70,bottle,1900,75.6948761483
+500,object,33,75,water,1676,452.88334361
+501,object,34,77,cushion,1675,51.7267914069
+502,object,35,78,book,1641,49.5266154829
+503,object,36,79,flower,1636,47.637385319799996
+504,object,37,72,shelf,1538,152.023114285
+505,object,38,41,carpet,1467,127.497966353
+506,object,39,48,mirror,1433,102.39217258299999
+507,object,40,88,vase,1403,6.87925317872
+508,object,41,90,flowerpot,1332,8.89697495871
+509,object,42,91,sink,1327,39.6325741962
+510,object,43,93,dog,1309,305.735526612
+511,object,44,95,armchair,1270,84.6931320671
+512,object,45,85,rock,1250,129.928775543
+513,object,46,97,wall socket,1236,1.5163463589700001
+514,object,47,100,sconce,1128,6.73342210947
+515,object,48,101,pillow,1094,35.3454906705
+516,object,49,105,cat,1023,335.397930109
+517,object,50,104,stairs,983,33.8634443083
+518,object,51,89,pot,962,13.998437213099999
+519,object,52,107,plate,957,22.2465217645
+520,object,53,76,railing,934,55.513065552200004
+521,object,54,24,fabric,932,80.11098211619999
+522,object,55,111,clock,929,4.8295160566
+523,object,56,112,bag,921,19.3989921275
+524,object,57,113,pillar,887,48.9125499805
+525,object,58,115,bicycle,886,92.84340285450001
+526,object,59,118,coffee table,867,25.9164531565
+527,object,60,119,ashcan,862,8.446664477010001
+528,object,61,121,bench,843,39.2149215702
+529,object,62,122,spotlight,822,4.3830945418
+530,object,63,123,boat,797,100.196552786
+531,object,64,124,basket,786,15.554114809300001
+532,object,65,125,work surface,764,39.615284744600004
+533,object,66,127,desk,759,74.22468867890001
+534,object,67,109,bowl,745,6.78557502645
+535,object,68,128,bird,743,83.1151241845
+536,object,69,131,house,736,148.04508139200001
+537,object,70,132,plaything,734,31.0044975686
+538,object,71,135,sea,707,183.592779
+539,object,72,71,paper,691,16.819365824000002
+540,object,73,138,television,671,14.0704009252
+541,object,74,141,chandelier,642,14.6448029842
+542,object,75,145,pottedplant,625,74.3215213447
+543,object,76,146,path,625,41.1080963864
+544,object,77,148,cup,619,11.318867035
+545,object,78,147,stairway,616,39.590748186300004
+546,object,79,144,switch,616,0.6357282427759999
+547,object,80,149,van,612,12.161010255599999
+548,object,81,116,stove,609,25.571815364699997
+549,object,82,153,truck,605,25.4733207629
+550,object,83,154,airplane,597,103.947443921
+551,object,84,155,awning,597,17.477517359500002
+552,object,85,152,chest of drawers,595,38.290541947
+553,object,86,156,traffic light,593,5.380584160009999
+554,object,87,86,seat,590,107.815242461
+555,object,88,160,poster,583,25.2705676604
+556,object,89,161,flag,577,6.992711719560001
+557,object,90,163,drinking glass,561,4.70603464975
+558,object,91,164,telephone,557,3.3486366154500002
+559,object,92,165,towel,544,16.4053811638
+560,object,93,167,rope,540,7.78217533532
+561,object,94,168,tvmonitor,536,82.1328088079
+562,object,95,169,bush,535,62.8342197573
+563,object,96,170,bucket,531,10.0760203837
+564,object,97,172,field,524,151.870080349
+565,object,98,173,stool,523,11.2977114622
+566,object,99,174,tray,518,8.359167468130002
+567,object,100,157,bannister,509,15.623279591
+568,object,101,176,fireplace,508,31.627066306
+569,object,102,178,trade name,501,9.06985399942
+570,object,103,17,wood,487,40.0981936641
+571,object,104,182,fan,481,6.029547932409999
+572,object,105,183,horse,480,99.115057762
+573,object,106,184,motorbike,471,116.03202158299999
+574,object,107,185,train,465,132.375781432
+575,object,108,175,pedestal,448,56.0972357083
+576,object,109,188,shelves,448,34.249095420100005
+577,object,110,189,bathtub,446,47.3571448365
+578,object,111,190,toilet,446,25.1848663194
+579,object,112,191,refrigerator,445,34.0908706229
+580,object,113,195,counter,434,48.4958401205
+581,object,114,197,wardrobe,426,67.750146469
+582,object,115,94,food,425,27.1374310125
+583,object,116,198,candlestick,422,1.9453582643400003
+584,object,117,199,computer,412,30.195256247800003
+585,object,118,136,double door,409,33.0425774668
+586,object,119,200,palm,405,25.5898176798
+587,object,120,203,bus,399,131.1436552
+588,object,121,204,board,399,23.542621907199997
+589,object,122,205,blind,395,21.4850068712
+590,object,123,207,microwave,387,9.01556439905
+591,object,124,208,sand,386,74.17943156
+592,object,125,209,track,381,39.4445015333
+593,object,126,210,fluorescent,380,4.7553426007
+594,object,127,212,sculpture,378,13.5215631001
+595,object,128,214,countertop,361,21.3656162424
+596,object,129,216,swivel chair,357,25.005691389299997
+597,object,130,224,snow,351,79.7823310931
+598,object,131,225,river,346,60.4087248059
+599,object,132,226,air conditioner,346,2.4128504639400004
+600,object,133,228,ottoman,338,11.825523445899998
+601,object,134,229,jar,338,4.129294107230001
+602,object,135,211,step,333,17.2276235119
+603,object,136,232,pack,328,10.1113970537
+604,object,137,236,bridge,321,34.9661334839
+605,object,138,239,minibike,312,6.90573951854
+606,object,139,218,loudspeaker,311,6.68363945326
+607,object,140,240,figurine,311,2.09523052438
+608,object,141,241,skyscraper,310,102.14201440299999
+609,object,142,242,can,309,3.9080378874
+610,object,143,243,sheep,303,65.3633389984
+611,object,144,247,bookcase,297,42.2047017404
+612,object,145,248,bedclothes,296,79.9540909043
+613,object,146,249,exhaust hood,295,6.38757227169
+614,object,147,250,hill,293,35.0024666156
+615,object,148,251,cow,290,62.776620469499996
+616,object,149,252,napkin,289,4.53359189618
+617,object,150,254,doorframe,285,9.270171503710001
+618,object,151,255,manhole,281,4.00199774402
+619,object,152,257,umbrella,278,5.873839149419999
+620,object,153,258,case,274,49.2323884663
+621,object,154,259,autobus,273,15.6473832954
+622,object,155,260,dishwasher,268,7.80891474
+623,object,156,262,container,263,5.833406697000001
+624,object,157,267,text,252,5.64552305033
+625,object,158,268,knife,252,1.00348978105
+626,object,159,270,crt screen,246,6.940926082789999
+627,object,160,221,pipe,242,6.01494158748
+628,object,161,272,magazine,242,3.1842446531
+629,object,162,271,curb,241,3.9248214640199994
+630,object,163,179,oven,239,9.265233611980001
+631,object,164,273,monitoring device,239,7.73066384767
+632,object,165,277,radiator,233,5.84399967419
+633,object,166,278,platform,232,32.6569637177
+634,object,167,279,blanket,231,6.65241158115
+635,object,168,280,central reservation,230,8.9491534938
+636,object,169,282,bulletin board,229,7.04861830633
+637,object,170,283,laptop,225,10.4947326103
+638,object,171,275,gate,224,4.612097282330001
+639,object,172,284,shoe,222,5.422193263860001
+640,object,173,285,pool table,217,35.2897227126
+641,object,174,34,metal,216,9.24735189903
+642,object,175,286,fruit,214,4.27478716187
+643,object,176,180,keyboard,212,7.396805258360001
+644,object,177,287,coffee maker,211,1.6419381312
+645,object,178,96,faucet,209,0.634309802246
+646,object,179,288,candle,203,1.14202395841
+647,object,180,291,handbag,199,2.15300621246
+648,object,181,292,wineglass,197,5.822225778480001
+649,object,182,293,mug,197,1.3321472667799998
+650,object,183,294,apparel,195,17.5676163593
+651,object,184,296,land,194,20.8587199716
+652,object,185,297,pitcher,194,1.0561146760299998
+653,object,186,298,remote control,194,0.821607079259
+654,object,187,299,bar,190,27.2753077335
+655,object,188,300,ball,186,9.93760413076
+656,object,189,281,grill,186,5.52505262503
+657,object,190,303,grandstand,172,41.7401988912
+658,object,191,304,backpack,171,2.26501028491
+659,object,192,305,pane of glass,170,9.37422834235
+660,object,193,309,hedge,166,14.2867558986
+661,object,194,274,beam,166,9.14551140259
+662,object,195,311,fork,166,0.7627586303589999
+663,object,196,313,notebook,164,1.89458981431
+664,object,197,314,toilet tissue,164,0.7040666018080001
+665,object,198,317,screen door,157,25.3761569432
+666,object,199,318,brush,156,12.6412699308
+667,object,200,319,heater,156,2.8043350024400002
+668,object,201,320,booklet,156,1.27922600245
+669,object,202,321,kitchen island,153,18.803709856199998
+670,object,203,312,tower,150,16.1411117715
+671,object,204,327,plane,147,12.265774670599999
+672,object,205,307,ladder,146,3.43381492369
+673,object,206,336,soap dispenser,142,0.5111690618729999
+674,object,207,332,shower,140,6.81715712018
+675,object,208,322,post,139,1.32540609001
+676,object,209,340,spoon,138,0.584265422179
+677,object,210,344,buffet,136,12.0386592233
+678,object,211,345,kettle,136,0.999714410309
+679,object,212,349,traveling bag,134,3.8777282867800005
+680,object,213,350,stage,133,22.6255911165
+681,object,214,351,hat,133,3.6334131821900004
+682,object,215,352,printer,133,2.97324519133
+683,object,216,358,teapot,129,0.65671992006
+684,object,217,361,chest,128,4.90975790075
+685,object,218,365,embankment,127,20.7875798832
+686,object,219,379,document,124,1.9472946382799998
+687,object,220,381,rack,123,4.38517002519
+688,object,221,246,mouse,122,0.5362012235270001
+689,object,222,388,silver screen,121,9.75564372717
+690,object,223,392,animal,120,8.83335024246
+691,object,224,393,pier,120,8.07840142015
+692,object,225,394,crane,120,2.15004093088
+693,object,226,400,postbox,116,0.937219268466
+694,object,227,315,vent,114,0.489737611657
+695,object,228,403,wire,113,1.3293555503499999
+696,object,229,404,console table,111,2.93535239117
+697,object,230,408,camera,109,1.19758030577
+698,object,231,399,statue,107,1.6733298842299997
+699,object,232,411,jacket,106,4.4376220966
+700,object,233,412,dishrag,106,0.8675263419820001
+701,object,234,409,microphone,106,0.656161127494
+702,object,235,415,fountain,105,11.783365071199999
+703,object,236,417,paper towel,104,0.517981381758
+704,object,237,418,washer,103,17.085438371400002
+705,object,238,419,partition,102,13.0949980423
+706,object,239,421,banner,101,1.3916740540099999
+707,object,240,422,runway,100,27.322507286
+708,object,241,425,tent,98,17.846607024
+709,object,242,427,towel rack,98,0.603205493854
+710,object,243,433,guitar,93,3.94859759417
+711,object,244,434,system,93,0.9332848995999999
+712,object,245,435,place mat,92,1.3764241744299999
+713,object,246,438,bouquet,90,1.4220925864899998
+714,object,247,432,waterfall,89,19.8803354358
+715,object,248,441,booth,88,18.1921284665
+716,object,249,442,dirt track,88,13.7929026222
+717,object,250,443,vending machine,88,3.1733600030799995
+718,object,251,74,drawer,87,2.16931920363
+719,object,252,192,saddle,87,1.69257444565
+720,object,253,445,deck chair,86,4.0494751957499995
+721,object,254,446,canister,85,0.643179658684
+722,object,255,449,helmet,84,1.6278102066
+723,object,256,447,hovel,83,20.1096518993
+724,object,257,263,shutter,82,3.5630354883199997
+725,object,258,450,telephone booth,82,2.32150376092
+726,object,259,452,shirt,81,5.24153096984
+727,object,260,454,cradle,80,12.7022243731
+728,object,261,455,candelabrum,80,0.860728542709
+729,object,262,451,net,78,5.493620709990001
+730,object,263,458,easel,78,3.7908783561300003
+731,object,264,448,skylight,78,2.7969171704000004
+732,object,265,462,newspaper,76,2.67544581744
+733,object,266,463,cross,76,0.550120193764
+734,object,267,234,canopy,75,13.9440788007
+735,object,268,464,smoke,75,7.729805127080001
+736,object,269,465,footbridge,75,7.609112333210001
+737,object,270,461,cart,75,3.5906310870099998
+738,object,271,468,arcade machine,74,18.8283896001
+739,object,272,469,machine,74,9.36026727493
+740,object,273,470,baby buggy,73,2.2505334583
+741,object,274,471,tank,72,9.850692714489998
+742,object,275,472,shower stall,71,1.37412662118
+743,object,276,473,swimming pool,70,16.2233467754
+744,object,277,474,sales booth,70,13.8594135751
+745,object,278,475,scaffolding,70,5.471746244859999
+746,object,279,479,fridge,69,6.95351086464
+747,object,280,480,patty,69,5.2346490683899995
+748,object,281,481,altar,69,3.5166328871800006
+749,object,282,44,wheel,69,3.2009807919499997
+750,object,283,483,streetcar,68,2.46542466099
+751,object,284,486,tapestry,67,3.98720883059
+752,object,285,487,trouser,67,3.2756688647799996
+753,object,286,488,billboard,67,1.30935348029
+754,object,287,490,decoration,66,2.05075993647
+755,object,288,150,cap,64,1.439401966
+756,object,289,494,hot tub,63,10.4969936272
+757,object,290,496,file cabinet,62,8.61815128976
+758,object,291,498,piano,62,3.7126952200199996
+759,object,292,500,conveyer belt,61,11.155160784100001
+760,object,293,501,arcade,61,9.86164427222
+761,object,294,502,equipment,61,5.25079793716
+762,object,295,497,drawing,61,3.8023270669900002
+763,object,296,406,trunk,61,1.7165664362900002
+764,object,297,503,saucepan,61,0.64058028346
+765,object,298,485,blackboard,59,4.19027379105
+766,object,299,506,court,58,19.8192649722
+767,object,300,512,lake,57,14.5985671419
+768,object,301,513,barrel,57,9.87849110183
+769,object,302,514,ship,56,10.3650124516
+770,object,303,516,cage,55,12.2100868049
+771,object,304,517,railroad train,55,8.71843952864
+772,object,305,519,lighthouse,55,3.6857999121800007
+773,object,306,521,bus stop,55,3.32971285476
+774,object,307,522,exhibitor,55,3.08550793249
+775,object,308,523,jersey,55,2.8423345261299997
+776,object,309,524,plinth,55,1.55954434916
+777,object,310,525,forecourt,54,7.5679283691100006
+778,object,311,526,eiderdown,53,7.105641610069999
+779,object,312,527,mat,53,5.431570553049999
+780,object,313,528,cash register,53,1.28257173551
+781,object,314,530,calendar,52,1.0233778683399999
+782,object,315,531,briefcase,52,0.510788092174
+783,object,316,537,mouse pad,50,1.79099579482
+784,object,317,538,cd,50,1.51557845154
+785,object,318,540,bread,50,1.21554294223
+786,object,319,542,cliff,49,14.5456746244
+787,object,320,518,arch,49,6.67606873386
+788,object,321,544,escalator,48,12.1753581074
+789,object,322,206,chimney,48,3.77980722741
+790,object,323,550,table football,47,4.22922971816
+791,object,324,551,grand piano,47,2.36935839099
+792,object,325,539,rocking chair,47,1.33967517102
+793,object,326,546,baseboard,47,0.674618660183
+794,object,327,549,elevator,46,7.4353274713
+795,object,328,557,scale,46,0.558249804699
+796,object,329,560,vault,45,9.92021754203
+797,object,330,561,radio,45,0.543426737079
+798,object,331,566,fish,43,2.29835193187
+799,object,332,569,boot,43,0.9448412828849999
+800,object,333,573,dummy,42,1.43008066424
+801,object,334,575,mezzanine,41,4.74137160362
+802,object,335,576,fire place,41,3.9080042488599998
+803,object,336,577,map,41,2.3839761537
+804,object,337,578,menu,41,1.2316639362200001
+805,object,338,581,rubbish,40,7.31504067373
+806,object,339,582,gym shoe,40,1.0001710180299999
+807,object,340,586,slot machine,39,10.1505826945
+808,object,341,588,basketball hoop,39,1.07397670214
+809,object,342,591,tire,38,1.15829140636
+810,object,343,520,bell,37,3.63486630558
+811,object,344,593,video player,37,1.09960346975
+812,object,345,595,merchandise,36,6.60864135352
+813,object,346,166,frame,36,1.4148129647999999
+814,object,347,596,television stand,36,1.26641630568
+815,object,348,599,ice,35,11.0366083298
+816,object,349,600,playground,35,5.472401488049999
+817,object,350,601,guardrail,35,2.13165403199
+818,object,351,604,table tennis,34,2.5315626926099997
+819,object,352,120,roof,34,2.39702316083
+820,object,353,606,bidet,34,1.40249707986
+821,object,354,607,sweater,34,0.620704246446
+822,object,355,612,aircraft carrier,33,11.6504302178
+823,object,356,613,valley,33,5.72546621037
+824,object,357,603,deck,33,5.49259214814
+825,object,358,614,railway,33,4.6476989044999995
+826,object,359,615,balloon,33,0.651330872118
+827,object,360,620,pitch,32,12.986733575299999
+828,object,361,621,display board,32,2.4111940544799997
+829,object,362,605,mattress,32,2.23797128539
+830,object,363,623,pallet,32,0.995392342059
+831,object,364,626,patio,31,5.34423669248
+832,object,365,627,ad,31,1.40567169493
+833,object,366,628,price tag,31,0.653122278306
+834,object,367,631,controls,30,12.297976871
+835,object,368,632,island,30,2.2735122330400004
+836,object,369,323,stretcher,29,3.21946377446
+837,object,370,640,curtains,29,2.55322525477
+838,object,371,643,duck,29,1.43522827803
+839,object,372,648,pulpit,28,3.74658782417
+840,object,373,401,dome,27,4.01997909122
+841,object,374,654,slope,27,3.4737945715699996
+842,object,375,656,podium,27,1.59482744588
+843,object,376,649,ramp,27,1.5246844788999998
+844,object,377,644,gas pump,27,1.0613539455299998
+845,object,378,659,monument,27,0.757120165228
+846,object,379,660,trailer,27,0.745415029955
+847,object,380,663,windmill,26,4.083071089930001
+848,object,381,653,leaves,26,3.8478105024900002
+849,object,382,655,helicopter,26,2.93983172417
+850,object,383,664,pool,26,2.8489956794999998
+851,object,384,665,water tower,26,2.58905154965
+852,object,385,666,folding screen,26,2.57879305726
+853,object,386,667,workbench,26,2.4040356425400002
+854,object,387,668,brushes,26,1.5938520096700002
+855,object,388,658,finger,26,0.9508564064939999
+856,object,389,670,scoreboard,26,0.781014231886
+857,object,390,678,ice rink,25,10.325039226900001
+858,object,391,679,carport,25,5.42691006118
+859,object,392,680,gravestone,25,3.8747755398800003
+860,object,393,681,straw,25,3.6922618850499997
+861,object,394,682,horse-drawn carriage,25,3.17636244424
+862,object,395,683,tunnel,25,3.0963312991799996
+863,object,396,684,cannon,25,3.0905293921900006
+864,object,397,685,tumble dryer,25,2.31452640024
+865,object,398,698,altarpiece,24,3.9890898870199996
+866,object,399,699,shelter,24,3.96673433426
+867,object,400,700,pond,24,3.20796688583
+868,object,401,701,windscreen,24,1.26895834265
+869,object,402,669,leaf,24,0.891726393016
+870,object,403,702,wheelchair,24,0.8791969895399999
+871,object,404,703,coat,24,0.83452503898
+872,object,405,704,planter,24,0.725353358234
+873,object,406,705,player,24,0.56894271809
+874,object,407,714,carousel,23,10.883705321199999
+875,object,408,715,display window,23,4.681557022930001
+876,object,409,716,elevator door,23,4.54542078031
+877,object,410,717,shop,23,3.4871418312
+878,object,411,718,roundabout,23,1.6440987709600001
+879,object,412,642,bottle rack,23,1.53679066165
+880,object,413,220,skirt,23,0.563428067901
+881,object,414,732,aquarium,22,7.5720426143
+882,object,415,733,ruins,22,7.39012381705
+883,object,416,734,instrument panel,22,7.14107272459
+884,object,417,735,ring,22,5.28038413361
+885,object,418,736,table game,22,2.66358087161
+886,object,419,737,television camera,22,2.0764408954499998
+887,object,420,739,goal,22,0.771519998559
+888,object,421,748,bird cage,21,9.25257772776
+889,object,422,749,aqueduct,21,5.744729517590001
+890,object,423,750,weighbridge,21,1.92812429289
+891,object,424,738,control tower,21,1.45172639472
+892,object,425,719,blinds,21,1.40545094629
+893,object,426,142,balcony,21,1.37209292342
+894,object,427,657,steering wheel,21,1.31925241823
+895,object,428,30,glass,21,1.10187076248
+896,object,429,762,stands,20,2.4922829661900003
+897,object,430,641,porch,20,1.3697251847100003
+898,object,431,764,mill,20,0.934402610834
+899,object,432,773,pantry,19,7.97902023483
+900,object,433,761,folding door,19,4.83699225459
+901,object,434,774,bandstand,19,3.90667361947
+902,object,435,775,videos,19,3.13433627796
+903,object,436,776,sand trap,19,2.61302511077
+904,object,437,777,organ,19,2.52828632246
+905,object,438,778,synthesizer,19,1.09843639245
+906,object,439,779,planks,19,0.909820881787
+907,object,440,780,pictures,19,0.755794064412
+908,object,441,781,parterre,19,0.7112060438750001
+909,object,442,792,lockers,18,4.9963985583
+910,object,443,793,service station,18,4.94950168927
+911,object,444,794,trench,18,4.10509889499
+912,object,445,795,barrels,18,3.5176341882699997
+913,object,446,796,box office,18,2.9292082096099996
+914,object,447,797,binder,18,1.96670038347
+915,object,448,798,cabin,18,1.7960637614700001
+916,object,449,102,base,18,1.44761291513
+917,object,450,799,forklift,18,1.29857790156
+918,object,451,801,pavilion,18,0.581094575029
+919,object,452,202,brick,18,0.5048318426839999
+920,object,453,49,tile,18,0.366071899621
+921,object,454,806,greenhouse,17,7.32188888484
+922,object,455,807,caravan,17,3.9077022082199995
+923,object,456,808,berth,17,3.8094036630800003
+924,object,457,809,trellis,17,2.37366792
+925,object,458,810,tomb,17,2.05494101508
+926,object,459,811,structure,17,1.28800261876
+927,object,460,812,plastic,17,0.944652567812
+928,object,461,813,parasol,17,0.7038092422840001
+929,object,462,827,dam,16,3.7956311234699993
+930,object,463,828,tracks,16,2.14401225338
+931,object,464,829,hay,16,1.9915869263599997
+932,object,465,830,hen,16,1.18933275932
+933,object,466,831,recycling bin,16,0.8097575294
+934,object,467,832,disc case,16,0.794965519258
+935,object,468,720,slide,16,0.70020134546
+936,object,469,850,shanties,15,4.3903566618
+937,object,470,852,machinery,15,2.26841416117
+938,object,471,853,dashboard,15,2.26606231317
+939,object,472,854,dental chair,15,1.62511413752
+940,object,473,855,parking,15,1.17065709249
+941,object,474,856,sewing machine,15,0.546058266346
+942,object,475,857,rifle,15,0.53082084275
+943,object,476,879,desert,14,5.7977167113100005
+944,object,477,880,henhouse,14,5.68825691511
+945,object,478,881,tennis court,14,5.190172229130001
+946,object,479,882,shed,14,3.70147267915
+947,object,480,883,bird feeder,14,2.5862322722799997
+948,object,481,884,washing machines,14,2.3266480258
+949,object,482,885,watchtower,14,2.2153694388
+950,object,483,886,shops,14,2.00101809007
+951,object,484,887,ride,14,1.9762328129799998
+952,object,485,888,telescope,14,1.4784957981400002
+953,object,486,890,drum,14,0.870521270941
+954,object,487,892,oar,14,0.640516346417
+955,object,488,893,breads,14,0.542862755408
+956,object,489,920,semidesert ground,13,5.402916862530001
+957,object,490,922,roller coaster,13,2.48188374682
+958,object,491,923,water wheel,13,1.86156533907
+959,object,492,924,barbecue,13,1.5518194586200003
+960,object,493,925,bulldozer,13,1.5336500929499999
+961,object,494,926,steam shovel,13,1.3655196271399999
+962,object,495,927,gravel,13,0.960120988553
+963,object,496,928,meter,13,0.659250056274
+964,object,497,929,excavator,13,0.627077869758
+965,object,498,978,vineyard,12,5.74384665243
+966,object,499,979,rubble,12,4.6251368488599995
+967,object,500,980,badlands,12,4.16248058915
+968,object,501,981,forest,12,3.11508113137
+969,object,502,982,ticket counter,12,2.78673732496
+970,object,503,921,grille door,12,2.6975235993799997
+971,object,504,983,stalls,12,2.20966706321
+972,object,505,984,shower curtain,12,1.4312348810799997
+973,object,506,985,village,12,1.32939788412
+974,object,507,987,gas station,12,1.13153804521
+975,object,508,988,niche,12,0.983892502185
+976,object,509,989,check-in-desk,12,0.9790070342049999
+977,object,510,990,set of instruments,12,0.8314760718809999
+978,object,511,991,bread rolls,12,0.6340606211850001
+979,object,512,397,tap,12,0.27676684251999994
+980,object,513,1059,inflatable bounce game,11,5.70027846355
+981,object,514,1060,temple,11,5.390753125040001
+982,object,515,1061,bowling alley,11,3.03882538575
+983,object,516,1062,mosque,11,3.00626591824
+984,object,517,1063,skittle alley,11,2.9674627607999997
+985,object,518,1064,sandbox,11,2.93652446273
+986,object,519,1065,catwalk,11,2.9206850226200003
+987,object,520,1066,big top,11,2.8155031959900003
+988,object,521,1067,iceberg,11,2.46811010139
+989,object,522,1068,viaduct,11,2.36549591941
+990,object,523,1069,fog bank,11,2.34329223633
+991,object,524,1070,parking lot,11,1.7655704672799999
+992,object,525,1071,trestle,11,1.6212392322
+993,object,526,1072,table cloth,11,0.91398251418
+994,object,527,1073,tables,11,0.7600097618739999
+995,object,528,1074,pigeonhole,11,0.7255140824259999
+996,object,529,1075,cactus,11,0.6860693213339999
+997,object,530,1076,bathrobe,11,0.672012238703
+998,object,531,1078,crate,11,0.575515002719
+999,object,532,1079,quay,11,0.560910652669
+1000,object,533,1080,hand cart,11,0.536631040153
+1001,object,534,1081,candies,11,0.5249874260230001
+1002,object,535,1180,labyrinth,10,4.205629110259999
+1003,object,536,1181,bullring,10,3.9420112981099997
+1004,object,537,1183,acropolis,10,3.05295889116
+1005,object,538,1184,covered bridge,10,2.60429748987
+1006,object,539,1185,shipyard,10,2.3967378619099997
+1007,object,540,1187,elephant,10,2.0218031976299997
+1008,object,541,1188,toll booth,10,1.80569262719
+1009,object,542,1189,book stand,10,1.75367846319
+1010,object,543,1190,skeleton,10,1.6477170189500001
+1011,object,544,1191,baptismal font,10,1.4256384931900001
+1012,object,545,1192,witness stand,10,1.32710100718
+1013,object,546,1193,vegetables,10,1.04394207727
+1014,object,547,1194,mountain pass,10,1.0317840576200001
+1015,object,548,1195,meat,10,0.7530425624070001
+1016,object,549,1077,rudder,10,0.5773814828230001
+1017,object,550,1196,canvas,10,0.536699789295
+1018,object,551,1197,shore,10,0.527876667242
+1019,object,552,244,concrete,9,0.611528640466
+1020,object,553,1182,terraces,8,2.83076268244
+1021,object,554,891,fire,8,0.625437693359
+1022,object,555,567,panel,7,1.11459643017
+1023,object,556,266,water tank,7,0.342240340753
+1024,object,557,103,headboard,6,2.56075796468
+1025,object,558,1186,ticket window,6,1.5930103562
+1026,object,559,213,engine,6,0.571881784298
+1027,object,560,476,sill,6,0.118180650693
+1028,object,561,217,lid,6,0.103510982953
+1029,object,562,763,revolving door,5,1.75904458784
+1030,object,563,32,ear,5,0.12405685637399999
+1031,object,564,110,screen,4,0.5492436516520001
+1032,object,565,194,apron,4,0.07879648983
+1033,object,566,622,cockpit,3,1.3619908983899998
+1034,object,567,633,metal shutters,3,0.368196107378
+1035,object,568,238,cardboard,3,0.09850328762880001
+1036,object,569,466,casing,3,0.054211262913600004
+1037,object,570,219,side,3,0.0335329964461
+1038,object,571,99,knob,3,0.00435196862351
+1039,object,572,343,grid,2,0.108822366333
+1040,object,573,64,handle,2,0.083329009009
+1041,object,574,108,top,2,0.013847236576100002
+1042,object,575,137,rim,2,0.009987182617190001
+1043,object,576,129,leather,1,0.41568870523400003
+1044,object,577,395,fur,1,0.278105983028
+1045,object,578,114,seat cushion,1,0.0498261452283
+1046,object,579,22,leg,1,0.027908325195299996
+1047,object,580,159,seat base,1,0.00676009444045
+1048,object,581,51,hair,1,0.00292587280273
+1049,object,582,227,bumper,1,0.00211357834172
+1050,object,583,426,spindle,1,0.00142123444363
+1051,object,584,98,body,1,0.000159738738419
+1052,part,1,21,head,8606,399.425893666
+1053,part,2,22,leg,8443,224.96312222
+1054,part,3,26,torso,7506,617.975998589
+1055,part,4,28,arm,6178,186.05770569599997
+1056,part,5,29,eye,5971,8.92968587047
+1057,part,6,15,windowpane,5610,220.009448679
+1058,part,7,32,ear,5414,63.1242747313
+1059,part,8,37,nose,4805,12.527916899200001
+1060,part,9,39,neck,4619,65.6566009431
+1061,part,10,23,door,4557,219.202000069
+1062,part,11,42,hand,3832,32.2579613434
+1063,part,12,44,wheel,3681,119.206320458
+1064,part,13,53,mouth,2938,3.7971526692400004
+1065,part,14,51,hair,2813,80.0923694645
+1066,part,15,58,foot,2424,13.376721421300001
+1067,part,16,62,eyebrow,2160,1.4777724033000001
+1068,part,17,64,handle,2078,3.05105246539
+1069,part,18,66,tail,2028,23.744376998299998
+1070,part,19,67,muzzle,2003,53.842271759700004
+1071,part,20,73,headlight,1757,8.41487780742
+1072,part,21,48,mirror,1643,4.42267946333
+1073,part,22,74,drawer,1628,41.6440838193
+1074,part,23,81,back,1619,48.1800768964
+1075,part,24,82,shade,1554,16.0556951392
+1076,part,25,87,paw,1450,21.580160648099998
+1077,part,26,92,column,1311,15.7063323836
+1078,part,27,98,body,1195,104.292031025
+1079,part,28,99,knob,1130,1.00311184633
+1080,part,29,102,base,1072,4.4701574863
+1081,part,30,103,headboard,1056,37.9853101908
+1082,part,31,96,faucet,1047,3.10576405194
+1083,part,32,106,license plate,1020,0.8943764876960001
+1084,part,33,108,top,976,30.9476274773
+1085,part,34,110,screen,933,54.217521476099996
+1086,part,35,86,seat,898,12.798649233599999
+1087,part,36,114,seat cushion,886,27.5737600185
+1088,part,37,117,wing,870,26.080912174899996
+1089,part,38,120,roof,815,33.5019351152
+1090,part,39,76,railing,748,15.4259355435
+1091,part,40,133,pane,727,38.9633875201
+1092,part,41,137,rim,695,2.41175897945
+1093,part,42,139,taillight,651,0.988278101765
+1094,part,43,140,back pillow,644,22.9518797593
+1095,part,44,143,windshield,629,5.46779572946
+1096,part,45,142,balcony,620,24.308353686500002
+1097,part,46,151,door frame,607,18.0179843878
+1098,part,47,158,beak,589,2.53617504947
+1099,part,48,159,seat base,585,7.031258771810001
+1100,part,49,162,inside arm,575,9.107463887160002
+1101,part,50,150,cap,547,2.6167736064300002
+1102,part,51,171,stern,527,14.8978485865
+1103,part,52,166,frame,505,9.485800000389998
+1104,part,53,177,outside arm,504,7.98020313847
+1105,part,54,181,footboard,481,29.7279283523
+1106,part,55,35,plant,452,42.3403872163
+1107,part,56,89,pot,438,20.097176232
+1108,part,57,194,apron,437,3.07963023071
+1109,part,58,196,handle bar,428,4.75745451865
+1110,part,59,201,shop window,403,18.9206512761
+1111,part,60,213,engine,373,7.212450409510001
+1112,part,61,192,saddle,358,2.7724157419999997
+1113,part,62,222,chain wheel,353,3.9406082581699997
+1114,part,63,219,side,352,8.6735780296
+1115,part,64,217,lid,351,7.228514681469999
+1116,part,65,206,chimney,343,2.3113581145
+1117,part,66,227,bumper,340,2.54365443301
+1118,part,67,231,coach,334,55.7516156264
+1119,part,68,220,skirt,332,5.201521916530001
+1120,part,69,235,stile,323,2.97118505466
+1121,part,70,136,double door,290,7.393574768960001
+1122,part,71,253,button panel,288,2.53533818867
+1123,part,72,256,crosswalk,279,19.7080596258
+1124,part,73,180,keyboard,274,2.79130257087
+1125,part,74,116,stove,270,3.5591653253800004
+1126,part,75,72,shelf,266,3.4437991489499997
+1127,part,76,261,monitor,263,11.452950758900002
+1128,part,77,179,oven,258,7.732944040560001
+1129,part,78,264,hoof,254,0.788562696162
+1130,part,79,265,front,253,6.68478103849
+1131,part,80,234,canopy,250,0.248840638004
+1132,part,81,266,water tank,246,6.29902321411
+1133,part,82,109,bowl,208,4.08843989689
+1134,part,83,289,backplate,207,0.543941494013
+1135,part,84,263,shutter,178,3.3712074087199997
+1136,part,85,246,mouse,176,0.21730963356999997
+1137,part,86,306,face,170,0.554451192029
+1138,part,87,310,arm panel,166,1.21492500595
+1139,part,88,316,muntin,162,0.853816702402
+1140,part,89,330,sash,145,8.47397788977
+1141,part,90,339,computer case,138,3.75407972194
+1142,part,91,348,metal shutter,134,4.37102869796
+1143,part,92,355,blade,130,1.6405408668900001
+1144,part,93,366,cloud,127,10.481860875499999
+1145,part,94,367,horn,127,1.2238030119299999
+1146,part,95,386,windows,122,5.5812124413
+1147,part,96,323,stretcher,122,0.41966736095
+1148,part,97,398,lower sash,116,5.03902781771
+1149,part,98,402,dormer,114,1.4805828644799999
+1150,part,99,221,pipe,112,1.40574780839
+1151,part,100,397,tap,105,0.22542679824099998
+1152,part,101,416,upper sash,104,3.59018494541
+1153,part,102,420,entrance,101,2.04918930817
+1154,part,103,423,corner pocket,100,0.8440400647930001
+1155,part,104,426,spindle,97,0.875040418797
+1156,part,105,61,bed,92,6.514775053169999
+1157,part,106,436,diffusor,92,1.166248594
+1158,part,107,439,side rail,89,2.1236841097799997
+1159,part,108,401,dome,88,2.94359160462
+1160,part,109,157,bannister,81,4.00335867139
+1161,part,110,274,beam,72,4.2413980161
+1162,part,111,466,casing,72,1.5615362686399998
+1163,part,112,175,pedestal,70,1.06423096017
+1164,part,113,476,sill,64,0.458567987999
+1165,part,114,495,garage door,63,5.14879773038
+1166,part,115,505,shaft,59,3.7438091535300004
+1167,part,116,507,head roof,58,1.19903284484
+1168,part,117,508,capital,58,0.652280492123
+1169,part,118,104,stairs,53,0.56049371933
+1170,part,119,536,fire escape,50,4.18148915213
+1171,part,120,406,trunk,49,1.84128530176
+1172,part,121,315,vent,49,0.482131318578
+1173,part,122,545,fuselage,48,2.682681478
+1174,part,123,548,clouds,47,9.417347176549999
+1175,part,124,211,step,47,2.90979421751
+1176,part,125,552,earmuffs,47,0.54064240846
+1177,part,126,218,loudspeaker,46,0.39042054650200003
+1178,part,127,564,riser,44,1.9316089742200002
+1179,part,128,281,grill,44,1.69121748107
+1180,part,129,568,tread,43,1.2411463656000001
+1181,part,130,570,stabilizer,43,0.500954104363
+1182,part,131,587,arcades,39,2.93161172297
+1183,part,132,567,panel,36,0.708118736045
+1184,part,133,45,cabinet,33,1.60208257974
+1185,part,134,629,coach roof,31,0.59171990423
+1186,part,135,12,wall,29,2.43593191685
+1187,part,136,622,cockpit,29,0.14847807715
+1188,part,137,633,metal shutters,27,0.978191917166
+1189,part,138,107,plate,24,0.033340873287100004
+1190,part,139,307,ladder,23,0.706899197695
+1191,part,140,751,bedpost,21,0.878350748222
+1192,part,141,752,terrace,21,0.658085890122
+1193,part,142,47,signboard,19,0.254570741647
+1194,part,143,800,doors,18,0.924082723255
+1195,part,144,520,bell,18,0.0436129964661
+1196,part,145,851,wave,15,3.39928193978
+1197,part,146,312,tower,15,1.36151005039
+1198,part,147,125,work surface,15,0.38786543819499997
+1199,part,148,763,revolving door,15,0.244154797872
+1200,part,149,889,slats,14,1.00568871218
+1201,part,150,55,pole,14,0.19356654857299999
+1202,part,151,322,post,14,0.15892446725
+1203,part,152,275,gate,13,0.20105296735300002
+1204,part,153,144,switch,13,0.00602461047044
+1205,part,154,986,safety side,12,1.2871111268100002
+1206,part,155,152,chest of drawers,10,0.858563359596
+1207,part,156,641,porch,9,0.6590026976650001
+1208,part,157,147,stairway,9,0.42854178670299997
+1209,part,158,399,statue,9,0.0802025201054
+1210,part,159,75,water,7,0.559151327404
+1211,part,160,57,fence,7,0.282085697415
+1212,part,161,77,cushion,7,0.0723484519877
+1213,part,162,720,slide,7,0.0315949012062
+1214,part,163,518,arch,6,0.217140455418
+1215,part,164,642,bottle rack,6,0.0994997981213
+1216,part,165,448,skylight,6,0.0186582233981
+1217,part,166,288,candle,6,0.00937285602133
+1218,part,167,657,steering wheel,6,0.005689539118800001
+1219,part,168,50,lamp,5,0.0110828275114
+1220,part,169,432,waterfall,4,0.996367398184
+1221,part,170,14,floor,4,0.908338716058
+1222,part,171,1186,ticket window,4,0.552816936378
+1223,part,172,332,shower,4,0.0130596714869
+1224,part,173,25,ceiling,3,0.6556805213
+1225,part,174,54,curtain,3,0.30755451271
+1226,part,175,205,blind,3,0.07480039197100001
+1227,part,176,111,clock,3,0.0239827218368
+1228,part,177,451,net,3,0.016185935533
+1229,part,178,79,flower,3,0.0134686048018
+1230,part,179,65,box,3,0.0117156982026
+1231,part,180,539,rocking chair,3,0.005039830491109999
+1232,part,181,1182,terraces,2,0.500532236733
+1233,part,182,24,fabric,2,0.161473877875
+1234,part,183,605,mattress,2,0.155035313265
+1235,part,184,85,rock,2,0.089650252778
+1236,part,185,36,chair,2,0.0645108800356
+1237,part,186,669,leaf,2,0.052089718551
+1238,part,187,719,blinds,2,0.0485084279378
+1239,part,188,43,sidewalk,2,0.021220216504099998
+1240,part,189,188,shelves,2,0.0190756088804
+1241,part,190,124,basket,2,0.015047283879
+1242,part,191,644,gas pump,2,0.0108023826346
+1243,part,192,286,fruit,2,0.006176078509890001
+1244,part,193,409,microphone,2,0.004665516040939999
+1245,part,194,97,wall socket,2,0.00247910256135
+1246,part,195,46,light,2,0.0006284849408130001
+1247,part,196,549,elevator,1,0.36937047067400003
+1248,part,197,761,folding door,1,0.21151694373399998
+1249,part,198,921,grille door,1,0.119921398563
+1250,part,199,208,sand,1,0.109425
+1251,part,200,653,leaves,1,0.09754625956219999
+1252,part,201,214,countertop,1,0.0530454842819
+1253,part,202,121,bench,1,0.05279457462
+1254,part,203,603,deck,1,0.040707582898499996
+1255,part,204,132,plaything,1,0.028306749131900004
+1256,part,205,174,tray,1,0.0276985168457
+1257,part,206,169,bush,1,0.025213991769500003
+1258,part,207,1077,rudder,1,0.0243468154347
+1259,part,208,461,cart,1,0.022078197669299998
+1260,part,209,655,helicopter,1,0.0210834851191
+1261,part,210,31,road,1,0.020941543046799998
+1262,part,211,738,control tower,1,0.0209337349398
+1263,part,212,212,sculpture,1,0.0198479166667
+1264,part,213,207,microwave,1,0.0183873286526
+1265,part,214,327,plane,1,0.0163436692506
+1266,part,215,71,paper,1,0.013606770833299997
+1267,part,216,164,telephone,1,0.010262067837700001
+1268,part,217,271,curb,1,0.009799107142860001
+1269,part,218,649,ramp,1,0.00908482142857
+1270,part,219,658,finger,1,0.00898202260335
+1271,part,220,16,tree,1,0.007968488035359999
+1272,part,221,112,bag,1,0.00583426157633
+1273,part,222,419,partition,1,0.0056074108817999995
+1274,part,223,100,sconce,1,0.00548240391455
+1275,part,224,497,drawing,1,0.00501041666667
+1276,part,225,170,bucket,1,0.00390720367432
+1277,part,226,546,baseboard,1,0.00194660734149
+1278,part,227,242,can,1,0.0018968582153299999
+1279,part,228,447,hovel,1,0.00185566968879
+1280,part,229,113,pillar,1,0.00167427701674
+1281,part,230,167,rope,1,0.00147831409084
+1282,part,231,52,ground,1,0.00132649367474
+1283,part,232,70,bottle,1,0.00126775105794
+1284,part,233,88,vase,1,0.0007323148293139999
+1285,part,234,210,fluorescent,1,0.0005708333333330001
+1286,material,1,17,wood,9905,750.404734027
+1287,material,2,20,painted,9124,1087.51175175
+1288,material,3,24,fabric,7056,608.863733238
+1289,material,4,30,glass,5500,180.589199204
+1290,material,5,34,metal,4843,270.464824368
+1291,material,6,49,tile,3409,319.642030294
+1292,material,7,41,carpet,2599,228.31394929599998
+1293,material,8,69,plastic-opaque,1919,46.692511882299996
+1294,material,9,80,granite,1638,106.189538769
+1295,material,10,84,ceramic,1500,54.8908241511
+1296,material,11,71,paper,1171,21.1122505092
+1297,material,12,94,food,849,62.150512434
+1298,material,13,129,leather,742,37.5985600565
+1299,material,14,187,plastic-clear,452,13.025855398800001
+1300,material,15,193,laminate,442,18.5449884701
+1301,material,16,48,mirror,387,18.9938154862
+1302,material,17,202,brick,383,33.5775391469
+1303,material,18,215,wallpaper,357,38.7055238095
+1304,material,19,51,hair,342,13.720309761
+1305,material,20,230,skin,337,14.3590084083
+1306,material,21,238,cardboard,312,9.190227753610001
+1307,material,22,245,wicker,300,7.22544448605
+1308,material,23,244,concrete,294,30.2910069226
+1309,material,24,85,rock,241,25.847184286599997
+1310,material,25,395,fur,118,8.07778055689
+1311,material,26,405,rubber,111,2.26850137026
+1312,material,27,437,foliage,90,2.44220694628
+1313,material,28,572,linoleum,42,5.1635393381300005
+1314,material,29,13,sky,17,2.28939729641
+1315,material,30,75,water,17,0.522639160568
+1316,material,31,485,blackboard,8,0.477992939245
+1317,material,32,891,fire,6,0.102493055358
+1318,texture,1,237,blotchy,316,316.0
+1319,texture,2,276,dotted,234,234.0
+1320,texture,3,290,banded,205,205.0
+1321,texture,4,295,striped,194,194.0
+1322,texture,5,308,bumpy,166,166.0
+1323,texture,6,324,smeared,149,149.0
+1324,texture,7,325,knitted,148,148.0
+1325,texture,8,326,porous,148,148.0
+1326,texture,9,329,pitted,146,146.0
+1327,texture,10,328,fibrous,146,146.0
+1328,texture,11,331,veined,144,144.0
+1329,texture,12,334,perforated,143,143.0
+1330,texture,13,335,woven,142,142.0
+1331,texture,14,337,meshed,140,140.0
+1332,texture,15,338,crosshatched,139,139.0
+1333,texture,16,341,sprinkled,137,137.0
+1334,texture,17,342,polka-dotted,136,136.0
+1335,texture,18,346,marbled,135,135.0
+1336,texture,19,347,stained,135,135.0
+1337,texture,20,343,grid,134,134.0
+1338,texture,21,353,gauzy,130,130.0
+1339,texture,22,354,interlaced,130,130.0
+1340,texture,23,357,frilly,129,129.0
+1341,texture,24,356,zigzagged,129,129.0
+1342,texture,25,359,spiralled,128,128.0
+1343,texture,26,360,swirly,128,128.0
+1344,texture,27,363,cracked,127,127.0
+1345,texture,28,364,studded,127,127.0
+1346,texture,29,362,matted,127,127.0
+1347,texture,30,368,flecked,126,126.0
+1348,texture,31,369,potholed,126,126.0
+1349,texture,32,373,scaly,125,125.0
+1350,texture,33,370,stratified,125,125.0
+1351,texture,34,371,braided,125,125.0
+1352,texture,35,372,lined,125,125.0
+1353,texture,36,375,wrinkled,124,124.0
+1354,texture,37,374,paisley,124,124.0
+1355,texture,38,376,waffled,124,124.0
+1356,texture,39,377,freckled,124,124.0
+1357,texture,40,378,honeycombed,124,124.0
+1358,texture,41,384,lacelike,122,122.0
+1359,texture,42,382,chequered,122,122.0
+1360,texture,43,385,crystalline,122,122.0
+1361,texture,44,387,bubbly,121,121.0
+1362,texture,45,391,grooved,120,120.0
+1363,texture,46,389,pleated,120,120.0
+1364,texture,47,390,cobwebbed,120,120.0
+1365,color,1,1,black-c,62358,11135.3204744
+1366,color,2,2,grey-c,62310,12712.8431287
+1367,color,3,3,white-c,62054,5778.03820407
+1368,color,4,4,brown-c,61583,14549.652454199999
+1369,color,5,5,green-c,61508,5049.98973538
+1370,color,6,6,pink-c,60755,1478.51858238
+1371,color,7,7,purple-c,59516,865.041518839
+1372,color,8,8,blue-c,57825,4899.17412108
+1373,color,9,9,yellow-c,57560,2730.58728273
+1374,color,10,10,red-c,55938,1678.05972937
+1375,color,11,11,orange-c,50369,2427.7747689
