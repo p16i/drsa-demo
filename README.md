@@ -19,4 +19,4 @@ Please run the unit test command below to check that necessary functionalities w
 ```
 pytest tests/*
 ```
-Remark: the command above approximately take 8 minutes to run.
+*Remark*: the command above approximately take 8 minutes to run.
