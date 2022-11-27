@@ -7,7 +7,9 @@ from .. import Inspector
 
 class GroupBasisInspector(Inspector):
     # todo: rename tihs to subspace
-    def __init__(self, layer: str, weights: NDArray, subspace_coefficients=None):
+    def __init__(
+        self, layer: str, weights: NDArray, subspace_coefficients=None, **kwargs
+    ):
 
         # dims, number of groups, number of dimensions per group
         self.nd, self.num_subspaces, self.subspace_size = weights.shape
@@ -26,6 +28,7 @@ class GroupBasisInspector(Inspector):
             mean=np.zeros(self.nd),
             mat_encoding=weights_flatten,
             mat_decoding=weights_flatten,
+            **kwargs
         )
 
     def to(self, device):

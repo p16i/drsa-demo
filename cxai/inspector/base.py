@@ -13,7 +13,12 @@ class Inspector:
     subspace_coefficients = 1
 
     def __init__(
-        self, layer: str, mean: np.array, mat_encoding: np.array, mat_decoding: np.array
+        self,
+        layer: str,
+        mean: np.array,
+        mat_encoding: np.array,
+        mat_decoding: np.array,
+        verbose=False,
     ):
         # we need this for setting up inspection context
         self.layer = layer
@@ -25,11 +30,9 @@ class Inspector:
 
         # shape: [D, K]
         mat_act_encoding = torch.as_tensor(mat_encoding, dtype=torch.float)
-        print("mat_act_encoding", mat_act_encoding.shape)
 
         # shape: [K, D]
         mat_act_decoding = torch.as_tensor(mat_decoding, dtype=torch.float)
-        print("mat_act_decoding", mat_act_encoding.shape)
 
         # shape: [K, D]
         # remark: conv2d requires (out_channel (K), in_channel (D))
@@ -42,7 +45,10 @@ class Inspector:
 
         # here, we got from D -> K
         self.mat_ctx_encoding = mat_act_decoding.T.unsqueeze(2).unsqueeze(3)
-        print("self.mat_ctx_encoding.shape", self.mat_ctx_encoding.shape)
+        if verbose:
+            print("mat_act_encoding", mat_act_encoding.shape)
+            print("mat_act_decoding", mat_act_encoding.shape)
+            print("self.mat_ctx_encoding.shape", self.mat_ctx_encoding.shape)
 
     def encode_activation(self, act: torch.Tensor) -> torch.Tensor:
         """Encode activation to K-subspace

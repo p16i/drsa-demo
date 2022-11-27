@@ -40,7 +40,7 @@ class Model:
     def fit(self, A: torch.Tensor, C: torch.Tensor, epochs=100):
         arr_objval = []
 
-        tbar = tqdm(range(epochs))
+        tbar = tqdm(range(epochs), mininterval=1)
 
         for epoch in tbar:
             self.U.requires_grad_(True)
@@ -230,9 +230,9 @@ def train_model_with_inner_model_selection(
 
     Q = ortho_group.rvs(nd)
 
-    print(f"Using {total_trials} trials")
-
-    for _ in tqdm(list(range(total_trials)), desc="Init-Version"):
+    for _ in tqdm(
+        list(range(total_trials)), desc=f"Training with {total_trials} Trials"
+    ):
         selected = np.random.permutation(nd)[:nh]
 
         U = torch.as_tensor(
