@@ -1,10 +1,15 @@
+import os
+
+from pathlib import Path
+
 from typing import Union, Tuple
 
 import pandas as pd
 import numpy as np
 
-PACKAGE_DIR = "/".join(__file__.split("/")[:-1])
-NETDISSECT_CONFIG_DIR = f"{PACKAGE_DIR}/config/netdissect"
+from cxai import constants
+
+NETDISSECT_CONFIG_DIR = constants.PACKAGE_DIR / "config" / "netdissect"
 
 
 def _build_filter_with_category(df: pd.DataFrame) -> pd.DataFrame:
@@ -36,6 +41,7 @@ def _build_filter_with_category(df: pd.DataFrame) -> pd.DataFrame:
 
     return _df
 
+
 def _build_basis_matrix(df_group: pd.DataFrame) -> Tuple[Union[list, np.array]]:
 
     concepts = sorted(df_group.slug.unique().tolist())
@@ -61,14 +67,18 @@ def get_netdissect_concepts_and_basis_matrix(
     arch: str, layer: str, verbose=False
 ) -> Tuple[Union[list, np.array]]:
 
-    df_tally = pd.read_csv(f"{NETDISSECT_CONFIG_DIR}/results/{arch}/tally-{layer}.csv")
+    df_tally = pd.read_csv(
+        NETDISSECT_CONFIG_DIR / "results" / arch / f"tally-{layer}.csv"
+    )
 
     if verbose:
         print(f"NetDissect of `{arch}--{layer}`: num filters={df_tally.shape[0]}")
 
     df_filter_assigned_to_cat_group = _build_filter_with_category(df_tally)
 
-    concepts, W, filters_per_concept = _build_basis_matrix(df_filter_assigned_to_cat_group)
+    concepts, W, filters_per_concept = _build_basis_matrix(
+        df_filter_assigned_to_cat_group
+    )
 
     assert len(concepts) == W.shape[1]
     assert (
