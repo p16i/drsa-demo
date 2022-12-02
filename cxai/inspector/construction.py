@@ -1,4 +1,7 @@
+import os
+
 from nptyping import NDArray
+
 
 import numpy as np
 
@@ -51,40 +54,6 @@ class RandomBasisProducer(BasisProducer):
         )
 
 
-class MaxActivationFilterProducer(BasisProducer):
-    def __call__(
-        self,
-        basis_name: str,
-        arch: str,
-        layer: str,
-        layer_dimensions: int,
-        num_subspaces: int,
-        subspace_size: int,
-        base_dir: str,
-        **kwargs,
-    ):
-        raise NotImplementedError("Need to test the code again before using it.")
-
-        assert num_subspaces == 1, "this basis only works with num-subspaces=1"
-
-        act = np.load(f"{putils.parent_dir(base_dir)}/act.npy")
-
-        act = act**2
-
-        score = np.mean(act, axis=0)
-        assert score.shape == (layer_dimensions,)
-
-        sorted_indices = np.argsort(score)[::-1][:subspace_size]
-
-        weights = np.zeros((dims, subspace_size))
-
-        weights[sorted_indices, list(range(subspace_size))] = 1
-
-        assert np.argwhere(weights[:, 0]).reshape(-1) == sorted_indices[:1]
-
-        return GroupBasisInspector(layer=layer, weights=weights[:, None, :].copy())
-
-
 class MaxRelevanceFilterProducer(BasisProducer):
     def __call__(
         self,
@@ -100,8 +69,13 @@ class MaxRelevanceFilterProducer(BasisProducer):
 
         assert num_subspaces == 1, "this basis only works with num-subspaces=1"
 
-        act = np.load(f"{putils.parent_dir(base_dir)}/act.npy")
-        ctx = np.load(f"{base_dir}/ctx.npy")
+        act = np.load(
+            os.path.join(
+                putils.parent_dir(base_dir),
+                "act.npy",
+            )
+        )
+        ctx = np.load(os.path.join(base_dir, "ctx.npy"))
 
         rel = act * ctx
 
@@ -172,7 +146,7 @@ class PCABasisProducer(EigenBasisProducer):
         # This basis is constructed from eigenvectors of E[aa^t],
         # i.e., outer-product of activation vectors.
         # Therefore, this is not exactly PCA per se because of non-centering.
-        act = np.load(f"{putils.parent_dir(base_dir)}/act.npy")
+        act = np.load(os.path.join(putils.parent_dir(base_dir), "act.npy"))
 
         uncentered_cov = act.T @ act / act.shape[0]
 
@@ -184,8 +158,8 @@ class PRCABasisProducer(EigenBasisProducer):
         print("Constructing PRCA basis from `A.T @ C + C.T @ A` matrix")
 
         # This basis is formed from eigenvectors (u's) that maximize E[(u^T a)(u^T c)].
-        act = np.load(f"{putils.parent_dir(base_dir)}/act.npy")
-        ctx = np.load(f"{base_dir}/ctx.npy")
+        act = np.load(os.path.join(putils.parent_dir(base_dir), "act.npy"))
+        ctx = np.load(os.path.join(base_dir, "ctx.npy"))
 
         uncentered_cov = (act.T @ ctx + ctx.T @ act) / act.shape[0]
 
@@ -246,10 +220,15 @@ class LearntBasisProducer(BasisProducer):
     ):
         basis_name = basis_name.split("--")[-1]
 
-        path = f"{base_dir}/bases/{basis_name}/weights.npy"
+        weights_path = os.path.join(
+            base_dir,
+            "bases",
+            basis_name,
+            "weights.npy",
+        )
 
-        weights = np.load(path)
-        print(f"Using learnt basis from {path}")
+        weights = np.load(weights_path)
+        print(f"Using learnt basis from {weights_path}")
         print("> shape", weights.shape)
 
         return GroupBasisInspector(layer=layer, weights=weights)

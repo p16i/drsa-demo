@@ -1,5 +1,6 @@
 from typing import Tuple, Union, List, Dict
 
+import os
 from pathlib import Path
 
 import json
@@ -7,14 +8,11 @@ import json
 from PIL import Image
 
 
-# todo: remove this!
-from . import imagenet
-from . import viz
-
-from .image import *
 import torch
 
-from pathlib import Path
+from .image import *
+from . import imagenet
+from . import viz
 
 
 def get_device():

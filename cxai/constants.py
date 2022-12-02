@@ -1,4 +1,12 @@
+import os
+
+from pathlib import Path
+
+
 from frozendict import frozendict
+
+
+PACKAGE_DIR = Path(os.path.dirname(__file__))
 
 NUMBER_SPATIAL_LOCATIONS_SELECTED = 20
 
