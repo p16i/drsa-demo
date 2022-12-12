@@ -1,0 +1,13 @@
+on: push
+name: Unit Test
+jobs:
+  Pytest:
+    name: GitHub Action for pytest
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - run: pip install -r requirements.txt && pip install pytest
+    - run: PYTHONPATH=`pwd` pytest tests/*
