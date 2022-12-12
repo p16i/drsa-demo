@@ -112,14 +112,16 @@ class VGGLRPExplainer(LRPExplainerWithInspector):
                         hb=(1 - mean) / std,
                     )
                 else:
-                    # The heuristics is from https://github.com/oeberle/BiLRP_explain_similarity/blob/master/model/bilrp.py#L10.
-                    if ix <= 10:
+                    # The heuristics is similar to https://github.com/oeberle/BiLRP_explain_similarity/blob/master/model/bilrp.py#L10.
+                    # BUT, we correct the layer indices.
+                    # See https://colab.research.google.com/drive/1wcbbMB3mR_T-889JcXqxMbU7OImoDmM8#scrollTo=lP-3ayktTets
+                    if 0 <= ix <= 9:
                         gamma = 0.5
-                    elif 11 <= ix <= 17:
+                    elif 10 <= ix <= 16:
                         gamma = 0.25
-                    elif 18 <= ix <= 24:
+                    elif 17 <= ix <= 23:
                         gamma = 0.1
-                    elif ix > 24:
+                    elif ix >= 24:
                         gamma = 0.0
 
                     hook_func = partial(
