@@ -113,7 +113,10 @@ def decorrelate(U: torch.Tensor) -> torch.Tensor:
     # ref: Hyvärinen et al. (2003), Independent Component Analysis, eq 6.37
 
     S = U.T @ U
-    D, E = torch.linalg.eigh(S)
+
+    D, E = np.linalg.eigh(S.detach().cpu().numpy())
+    D = torch.from_numpy(D).to(S.device)
+    E = torch.from_numpy(E).to(S.device)
 
     inv = E @ torch.diag(1 / (torch.pow(D, 0.5))) @ E.T
 
