@@ -6,7 +6,7 @@
         "layer": "conv4_3",
         "num_locations": 20,
         "seed": 1,
-        "seed_file": "/home/users/pat.chormai/artifact-repos/concept-xai/artifacts/2022-11-paper-v2/raw-figure1/n02802426/training-samples.csv"
+        "seed_file": "/home/users/pat.chormai/artifact-repos/concept-xai/artifacts/2022-12-paper-submission/raw-figure1/n02802426/training-samples.csv"
     },
     "locations": [
         [

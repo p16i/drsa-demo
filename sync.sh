@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 rsync -r --progress \
-    mpg-server:~/artifact-repos/concept-xai/artifacts/2022-11-paper-v2/raw-figure1/ \
+    mpg-server:~/artifact-repos/concept-xai/artifacts/2022-12-paper-submission/raw-figure1/ \
     ./data/raw
 
 # Candidates: [ 74 152 336 447]
