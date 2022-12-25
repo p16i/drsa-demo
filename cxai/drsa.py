@@ -108,19 +108,22 @@ def softmin_p(x: torch.Tensor, ord: int, dim=0) -> torch.Tensor:
 
 
 @torch.no_grad()
-def decorrelate(U: torch.Tensor) -> torch.Tensor:
+def decorrelate(A: torch.Tensor) -> torch.Tensor:
     # U_ = U @ (U.T @ U)^{-1/2}
     # ref: Hyvärinen et al. (2003), Independent Component Analysis, eq 6.37
 
-    S = U.T @ U
-
-    D, E = np.linalg.eigh(S.detach().cpu().numpy())
-    D = torch.from_numpy(D).to(S.device)
-    E = torch.from_numpy(E).to(S.device)
+    S = A.T @ A
+    # somehow, for some classes (e.g. basketball at nfnet-f0's stage1),
+    # the eigenvalue decomposition fails if using float.
+    # Using double makes it more stable but slightly decreases the speed.
+    # See: https://gist.github.com/p16i/4a37e10230c016fcde6c0e571c9ae010
+    D, E = torch.linalg.eigh(S.double())
+    D = D.float()
+    E = E.float()
 
     inv = E @ torch.diag(1 / (torch.pow(D, 0.5))) @ E.T
 
-    return U @ inv
+    return A @ inv
 
 
 def obj_dsa(
