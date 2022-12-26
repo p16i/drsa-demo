@@ -3,14 +3,9 @@
 [![Unit Test](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml)
 
 
-We provide two Jupyter notebooks (in `./notebooks`):
+We provide a Jupyter notebook (`./notebooks/demo.ipynb`) that reproduces Fig. 2 in the main paper. More specically, the notebook demonstrates how to obtain disentanged explanations from PRCA and DRSA for class `basketball` using activation and LRP context vectors from [`VGG16-TV`][vgg16-tv] at `Conv4_3`.
 
-| Name (`.ipynb`) | Description | Related Content |
-|:--------|:---------|:-------|
-| `disentangled-explanation` | Disentanged explanations from PRCA and DRSA for class `basketball` from [VGG16-TV][vgg16-tv]| Fig. 2 |
-| `toy-example` | Comparison of PCA, DRSA, PRCA and DRSA on a synthetic distribution | Fig. 4 and Supplement Note F|
-
-*Remark:* Make sure that `PYTHONPATH` includes `$(pwd)/cxai` when starting a Jupyter instance.
+*Remark:* Make sure that `PYTHONPATH` includes `$(pwd)/cxai` when starting a Jupyter instance. Or, start the instance using `PYTHONPATH=$(pwd)/cxai jupyter notebook`.
 
 
 ## Setup
