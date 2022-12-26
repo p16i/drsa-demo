@@ -21,6 +21,6 @@ Please run the unit test command below to check that necessary functionalities w
 ```
 pytest tests/*
 ```
-*Remark:* the command above approximately take 8 minutes to run.
+*Remark:* the command above takes approximately 8 minutes to run.
 
 [vgg16-tv]: https://pytorch.org/vision/main/models/generated/torchvision.models.vgg16.html
