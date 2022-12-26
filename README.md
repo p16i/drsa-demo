@@ -2,14 +2,13 @@
 
 [![Unit Test](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml)
 
-||
 
 We provide two Jupyter notebooks (in `./notebooks`):
 
-| Notebook | Description | Related Content |
+| Name (`.ipynb`) | Description | Related Content |
 |:--------|:---------|:-------|
-| `disentangled-explanation.ipynb` | Disentanged explanations from PRCA and DRSA for class `basketball` from [VGG16-TV][vgg16-tv]| Fig. 2 |
-| `toy-example.ipynb` | Comparison of PCA, DRSA, PRCA and DRSA on a synthetic distribution | Fig. 4 and Supplement Note F|
+| `disentangled-explanation` | Disentanged explanations from PRCA and DRSA for class `basketball` from [VGG16-TV][vgg16-tv]| Fig. 2 |
+| `toy-example` | Comparison of PCA, DRSA, PRCA and DRSA on a synthetic distribution | Fig. 4 and Supplement Note F|
 
 *Remark:* Make sure that `PYTHONPATH` includes `$(pwd)/cxai` when starting a Jupyter instance.
 
