@@ -10,8 +10,7 @@ We provide a Jupyter notebook (`./notebooks/demo.ipynb`) that reproduces Fig. 2 
 
 ## Setup
 
-We use Python version 3.8.6 or higher. We provide a list of necessary dependcies in `requirements.txt`. One can install them via
-
+We use Python version 3.8.6. Necessary dependencies can be installed via
 ```
 pip install -r requirements.txt
 ```
@@ -21,6 +20,7 @@ Please run the unit test command below to check that necessary functionalities w
 ```
 pytest tests/*
 ```
+
 *Remark:* the command above takes approximately 8 minutes to run.
 
 [vgg16-tv]: https://pytorch.org/vision/main/models/generated/torchvision.models.vgg16.html

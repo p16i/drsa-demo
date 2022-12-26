@@ -98,11 +98,12 @@ def softmax_p(x: torch.Tensor, ord: int, dim=0) -> torch.Tensor:
 def softmin_p(x: torch.Tensor, ord: int, dim=0) -> torch.Tensor:
     """Perform softmin order `ord` along `dim`
 
+    Remark: the way this function define is different from what described in the paper
+    More specifically, `ord` here is equal to `1/q` if using the definition from the paper.
+
     Returns:
         torch.Tensor:
     """
-
-    assert ord >= 1
 
     return ((x ** (1 / ord)).mean(dim=dim)) ** (ord)
 
@@ -127,7 +128,7 @@ def decorrelate(A: torch.Tensor) -> torch.Tensor:
 
 
 def obj_dsa(
-    activation: torch.Tensor, context: torch.Tensor, softmin_ord: int
+    activation: torch.Tensor, context: torch.Tensor, softmin_ord: int = 2
 ) -> torch.Tensor:
     """_summary_
 
@@ -169,7 +170,7 @@ def obj_dsa(
 
 
 def obj_drsa(
-    activation: torch.Tensor, context: torch.Tensor, softmin_ord: int
+    activation: torch.Tensor, context: torch.Tensor, softmin_ord: int = 2
 ) -> torch.Tensor:
     """_summary_
 
@@ -214,7 +215,7 @@ def obj_drsa(
     return obj
 
 
-def train_model_with_inner_model_selection(
+def optimize(
     obj_func: Callable,
     act: torch.Tensor,
     ctx: torch.Tensor,
@@ -237,7 +238,7 @@ def train_model_with_inner_model_selection(
     Q = ortho_group.rvs(nd)
 
     for _ in tqdm(
-        list(range(total_trials)), desc=f"Training with {total_trials} Trials"
+        list(range(total_trials)), desc=f"Optimizing with {total_trials} Trials"
     ):
         selected = np.random.permutation(nd)[:nh]
 
