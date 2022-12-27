@@ -70,7 +70,7 @@ def test_loss():
 @pytest.mark.parametrize("sm_ord", [1, 2])
 @pytest.mark.parametrize("seed", [1, 2])
 @pytest.mark.parametrize("mode", ["ica", "irca"])
-def test_train_with_model_selection(sm_ord, seed, mode):
+def test_optimize(sm_ord, seed, mode):
     ns, ss = 4, 2
     d = 8
     n = 10
@@ -85,12 +85,12 @@ def test_train_with_model_selection(sm_ord, seed, mode):
         obj_func=obj_func, act=act, ctx=ctx, ns=ns, ss=ss, seed=seed, epochs=1
     )
 
-    best_from_1, _, _ = drsa.train_model_with_inner_model_selection(
+    best_from_1, _, _ = drsa.optimize(
         **kwargs,
         total_trials=1,
     )
 
-    best_from_5, _, _ = drsa.train_model_with_inner_model_selection(
+    best_from_5, _, _ = drsa.optimize(
         **kwargs,
         total_trials=5,
     )
