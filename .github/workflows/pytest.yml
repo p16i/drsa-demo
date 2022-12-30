@@ -11,3 +11,4 @@ jobs:
         python-version: 3.8
     - run: pip install -r requirements.txt && pip install pytest
     - run: PYTHONPATH=`pwd` pytest tests/*
+    - run: PYTHONPATH=`pwd` pytest -m "not slow and not gpu" tests/*
