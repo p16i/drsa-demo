@@ -32,6 +32,7 @@ def _test_producing_standard_explanation(attr_method, arch, imgname, label):
 def test_standard_explanation_vgg16(attr_method, arch, imgname, label):
     _test_producing_standard_explanation(attr_method, arch, imgname, label)
 
+
 @pytest.mark.parametrize("arch", ["dm_nfnet_f0"])
 @pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
 @pytest.mark.parametrize("attr_method", ["lrp0.1"])
@@ -40,7 +41,7 @@ def test_standard_explanation_nfnet(attr_method, arch, imgname, label):
 
 
 def _test_explanation_subspaces_with_random_basis(
-    arch, layer, attr_method, imgname, label, ns, ss, top_k, atol=1e-6
+    arch, layer, attr_method, imgname, label, ns, ss, top_k, atol=1e-5
 ):
     model, (_, input_transform) = factory.make_model(arch)
     model.to(device)
@@ -96,7 +97,7 @@ def _test_explanation_subspaces_with_random_basis(
 @pytest.mark.parametrize("arch", ["torchvision-vgg16-imagenet"])
 @pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
 @pytest.mark.parametrize("attr_method", ["lrp"])
-@pytest.mark.parametrize("layer", ["conv4_3", "conv5_3"])
+@pytest.mark.parametrize("layer", ["conv4_3"])
 @pytest.mark.parametrize(
     "ns,ss,top_k",
     [
@@ -113,12 +114,11 @@ def test_producing_subspace_explanations_vgg16(
     )
 
 
-
 @pytest.mark.slow
 @pytest.mark.parametrize("arch", ["dm_nfnet_f0"])
 @pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
-@pytest.mark.parametrize("attr_method", ["lrp0.0", "lrp0.1"])
-@pytest.mark.parametrize("layer", ["stage3"])
+@pytest.mark.parametrize("attr_method", ["lrp0.1"])
+@pytest.mark.parametrize("layer", ["stage2"])
 @pytest.mark.parametrize(
     "ns,ss,top_k",
     [
