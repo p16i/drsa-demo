@@ -52,10 +52,22 @@ def test_vgg16_logit_not_affected_by_forward_hooks(slug, attr_method):
 
 @pytest.mark.slow
 @pytest.mark.parametrize(
+    "slug,attr_method",
+    [
+        ("dm_nfnet_f0", "lrp0.1"),
+    ],
+)
+def test_nfnet_logit_not_affected_by_forward_hooks(slug, attr_method):
+    _test_logit_not_affected_by_forward_hooks(slug, attr_method)
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize(
     "arch,attr_method",
     [
         ("torchvision-vgg16-imagenet", "lrp"),
         ("netdissect-vgg16-imagenet", "lrp"),
+        ("dm_nfnet_f0", "lrp0.1"),
     ],
 )
 @pytest.mark.parametrize(

@@ -6,6 +6,8 @@ from torchvision.models import VGG
 
 ATTRIBUTE_TRANSFORMATION = "__transformation"
 
+
+from . import nfnet
 from . import vgg16
 
 
@@ -29,5 +31,7 @@ def split_model_at_layer(
 
     if isinstance(model, VGG):
         return vgg16.split_model_at_layer(model, layer)
+    elif isinstance(model, NormFreeNet):
+        return nfnet.split_model_at_layer(model, layer)
     else:
         raise ValueError(f"We can't split {model} at {layer}.")

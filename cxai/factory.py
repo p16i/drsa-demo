@@ -1,10 +1,13 @@
 import torch
 import torchvision
 
+import timm
+
 from cxai import models, explainers
 from cxai import utils as putils
 
 AVAILABLE_ARCHITECTURES = [
+    "dm_nfnet_f0",
     "torchvision-vgg16-imagenet",
     "netdissect-vgg16-imagenet",
 ]
@@ -42,6 +45,10 @@ def make_explainer(name: str, model: torch.nn.Sequential):
         if name == "lrp" and isinstance(model, torchvision.models.VGG):
             return explainers.lrp.vgg16.VGGLRPExplainer(model)
             # return explainers.VGGLRPExplainer(model)
+        elif isinstance(model, timm.models.nfnet.NormFreeNet):
+            # remark: lrp0.1 means "LRP" explainer with gamma=0.1
+            gamma = float(name[3:])
+            return explainers.lrp.nfnet.Explainer(model, lrp_gamma=gamma)
         else:
             raise ValueError("{name} for LRP is not available!")
 

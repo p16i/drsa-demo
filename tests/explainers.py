@@ -32,6 +32,12 @@ def _test_producing_standard_explanation(attr_method, arch, imgname, label):
 def test_standard_explanation_vgg16(attr_method, arch, imgname, label):
     _test_producing_standard_explanation(attr_method, arch, imgname, label)
 
+@pytest.mark.parametrize("arch", ["dm_nfnet_f0"])
+@pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
+@pytest.mark.parametrize("attr_method", ["lrp0.1"])
+def test_standard_explanation_nfnet(attr_method, arch, imgname, label):
+    _test_producing_standard_explanation(attr_method, arch, imgname, label)
+
 
 def _test_explanation_subspaces_with_random_basis(
     arch, layer, attr_method, imgname, label, ns, ss, top_k, atol=1e-6
@@ -100,6 +106,28 @@ def _test_explanation_subspaces_with_random_basis(
     ],
 )
 def test_producing_subspace_explanations_vgg16(
+    arch, layer, attr_method, imgname, label, ns, ss, top_k
+):
+    _test_explanation_subspaces_with_random_basis(
+        arch, layer, attr_method, imgname, label, ns, ss, top_k
+    )
+
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize("arch", ["dm_nfnet_f0"])
+@pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
+@pytest.mark.parametrize("attr_method", ["lrp0.0", "lrp0.1"])
+@pytest.mark.parametrize("layer", ["stage3"])
+@pytest.mark.parametrize(
+    "ns,ss,top_k",
+    [
+        (1, 1536, 1),
+        (5, 10, 3),
+        (1, 20, 1),
+    ],
+)
+def test_producing_subspace_explanations_nfnet(
     arch, layer, attr_method, imgname, label, ns, ss, top_k
 ):
     _test_explanation_subspaces_with_random_basis(
