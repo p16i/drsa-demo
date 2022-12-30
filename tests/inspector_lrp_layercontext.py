@@ -37,6 +37,20 @@ def _test_extracting_activation_with_lrp_and_inspection_context(
 
 
 @pytest.mark.slow
+@pytest.mark.parametrize("layer", ["stage2"])
+@pytest.mark.parametrize("arch", ["dm_nfnet_f0"])
+@pytest.mark.parametrize("gamma", [0.1])
+@pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
+def test_nfnet_lrp_extracting_activation_and_context(
+    arch, layer, gamma, imgname, label
+):
+
+    _test_extracting_activation_with_lrp_and_inspection_context(
+        arch, f"lrp{gamma}", imgname, label, layer
+    )
+
+
+@pytest.mark.slow
 @pytest.mark.parametrize("layer", ["conv4_3", "conv5_3"])
 @pytest.mark.parametrize("arch", ["torchvision-vgg16-imagenet"])
 @pytest.mark.parametrize("imgname,label", IMAGE_LABEL_PAIRS)
