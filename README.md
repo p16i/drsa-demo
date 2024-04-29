@@ -5,7 +5,7 @@
 [![Unit Test](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml)
 
 The repository contains demo code for our paper
-> [*Pattarawat Chormai, Jan Herrmann, Klaus-Robert Müller, Grégoire Montavon, "Disentangled Explanations of Neural Network Predictions by Finding Relevant Subspaces", TPAMI 2024*][paper].
+> [*P Chormai, J Herrmann, KR Müller, G Montavon, "Disentangled Explanations of Neural Network Predictions by Finding Relevant Subspaces", IEEE TPAMI 2024*][paper].
 
 
 <p align="center">
@@ -54,13 +54,6 @@ make fast-test
 # test all functions (approximately 6 minutes on Tesla V100)
 make test
 ```
-
-
-# Acknowledgements
-The work of Pattarawat Chormai was supported by the Max Planck Society and the German Ministry of Education and Research via the Max Planck School of Cognition and by the Konrad Zuse School of Excellence in Learning and Intelligent Systems (ELIZA) through the DAAD programme Konrad Zuse Schools of Excellence in Artificial Intelligence, sponsored by the German Ministry of Education and Research.
-The work of Klaus-Robert Müller was partly supported by the Institute of Information & Communications Technology Planning \& Evaluation (IITP) funded by the Korea government (MSIT) under Grants 2019-0-00079 (Artificial Intelligence Graduate School Program, Korea University) and  2022-0-00984 (Development of Artificial Intelligence Technology for Personalized Plug-and-Play Explanation and Verification of Explanation).
-This work was supported in part by the German Ministry for Education and Research (BMBF) under Grants 01IS14013A-E,  01GQ1115,  01GQ0850,  01IS18025A,  031L0207D, and  01IS18037A, and in part by BASLEARN—TU Berlin/BASF Joint Laboratory, co-financed by TU Berlin and BASF SE.
-This work used the Scientific Compute Cluster at GWDG, the joint data center of Max Planck Society for the Advancement of Science (MPG) and University of Göttingen. We thank Thomas Schnake, Lorenz Linhardt, Simon Letzgus, and Ali Hashemi for helpful comments and feedback to improve the manuscript.
 
 [vgg16-tv]: https://pytorch.org/vision/main/models/generated/torchvision.models.vgg16.html
 [paper]: https://ieeexplore.ieee.org/document/10497845
