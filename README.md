@@ -1,12 +1,12 @@
 # Disentangled Explanations of Neural Network Predictions by Finding Relevant Subspaces (Demo Code)
 
+[![TPAMI](https://img.shields.io/badge/DOI-10.1109/TPAMI.2024.3388275-0173b3.svg)][paper]
+[![arXiv](https://img.shields.io/badge/arXiv-2212.14855-b31b1b.svg)](https://arxiv.org/abs/2212.14855)
 [![Unit Test](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/p16i/drsa-demo/actions/workflows/pytest.yml)
 
 The repository contains demo code for our paper
 > [*Pattarawat Chormai, Jan Herrmann, Klaus-Robert Müller, Grégoire Montavon, "Disentangled Explanations of Neural Network Predictions by Finding Relevant Subspaces", TPAMI 2024*][paper].
 
-[![TPAMI](https://img.shields.io/badge/DOI-10.1109/TPAMI.2024.3388275-0173b3.svg)][paper]
-[![arXiv](https://img.shields.io/badge/arXiv-2212.14855-b31b1b.svg)](https://arxiv.org/abs/2212.14855)
 
 <p align="center">
     <img width="700px" src="https://private-user-images.githubusercontent.com/1214890/326379598-abecb911-2103-437f-bd32-58627bfc3f7c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQzODEzNjIsIm5iZiI6MTcxNDM4MTA2MiwicGF0aCI6Ii8xMjE0ODkwLzMyNjM3OTU5OC1hYmVjYjkxMS0yMTAzLTQzN2YtYmQzMi01ODYyN2JmYzNmN2MucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQyOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MjlUMDg1NzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTNmNDNjNDI1MjI5ZDlhY2M1NTIwZDg5YTlmMWVlZmQ4YmUyOTI4Mjg3ZDY1YzRkZWM1Nzk5OWQ1YjlhNmQ0NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.4PTBuZ-hYoQU14yUM2lW5YL3_WU8R_Ol6IoU4jGuxt4"/>
