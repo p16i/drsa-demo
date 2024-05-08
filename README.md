@@ -9,18 +9,18 @@ The repository contains demo code for our paper
 
 
 <p align="center">
-    <img width="700px" src="https://private-user-images.githubusercontent.com/1214890/326393244-ba8b88a8-62d1-41bb-b225-97c07c8ebeb1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQzODM5MDMsIm5iZiI6MTcxNDM4MzYwMywicGF0aCI6Ii8xMjE0ODkwLzMyNjM5MzI0NC1iYThiODhhOC02MmQxLTQxYmItYjIyNS05N2MwN2M4ZWJlYjEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQyOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MjlUMDk0MDAzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MzRhNzFhZTJlYWEzMTc4ODFkNTQ5MWQzNDQyNmQwODAyMTg5NWU1ZDBlZDU0YzdlNzMyMjZmMjVlZWU2MTcxYyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.xfePgKKErQIkOLYkYd8CBejH95uUd9WfxT5-iYQJTAc"/>
+    <img width="700px" src="https://i.imgur.com/GtBJVkV.png"/>
 </p>
 <br/>
 
 The repository includes two Jupyter notebooks, namely
 1. `./notebooks/demo.ipynb` demonstrates our  disentangled explanation framework. More specifically, the notebook shows how to obtain disentanged explanations from PRCA and DRSA for class `basketball` using activation and LRP context vectors from [`VGG16-TV`][vgg16-tv] at `Conv4_3`. The demonstration reproduces Fig. 1 in the main paper.
     <p align="center">
-        <img width="600px" src="https://private-user-images.githubusercontent.com/1214890/326392828-2dcabd3a-753d-4b35-859b-e097a4c7ade1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQzODM4MTAsIm5iZiI6MTcxNDM4MzUxMCwicGF0aCI6Ii8xMjE0ODkwLzMyNjM5MjgyOC0yZGNhYmQzYS03NTNkLTRiMzUtODU5Yi1lMDk3YTRjN2FkZTEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQyOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MjlUMDkzODMwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YTcwYTkzYTkxYThmOWMyMTc4NGI1NWJlYWU5ZTdhOGY4MTI0NWRhNWQ5MzViNmQ2ZThiN2UxMTc2OTQ1ZWMwMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.XC6YFLDT_OVRNgrPMrgYJj_CXitLiwLLiBKO2yJeTyA">
+        <img width="600px" src="https://i.imgur.com/I5JNr6l.png">
     </p>
 2. `./notebooks/lrp-nfnet.ipynb` demonstrates our LRP implementation for NFNet-F0. It reproduces heatmaps similar to the ones in Fig. D.2 in Supplementary Note D.
     <p align="center">
-        <img width="500px" src="https://private-user-images.githubusercontent.com/1214890/326393296-945679bd-db9d-4040-b53b-96c617c66277.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQzODM5MDMsIm5iZiI6MTcxNDM4MzYwMywicGF0aCI6Ii8xMjE0ODkwLzMyNjM5MzI5Ni05NDU2NzliZC1kYjlkLTQwNDAtYjUzYi05NmM2MTdjNjYyNzcucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQyOSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MjlUMDk0MDAzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZGYwOTdiNTY4MTlhZDNhMjQ4N2UzM2ExZTYxZmZjYjIyMThmZDExMzQ2MzRmYjYwYTgxODlmZmNmMTk4NGJkYSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.E5lSelwyv_PLPUcvaaNe-SEIOSaKL0nA_h_bBKWlNkM">
+        <img width="500px" src="https://i.imgur.com/WW5ajcZ.png">
     </p>
 
 *Remark:* Make sure that `PYTHONPATH` includes `$(pwd)/cxai` when starting a Jupyter instance. Or, start the instance using `PYTHONPATH=$(pwd)/cxai jupyter notebook`.
